@@ -1,5 +1,29 @@
+/* Import from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500&family=Bebas+Neue&display=swap');
+
 /* Change default margin, padding and border to 0 and none */
 * {
     padding: 0;
     margin: 0;
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #046997;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+}
+
+/* removed underlines from links */
+header a {
+    text-decoration: none;
+    color: inherit;
 }
