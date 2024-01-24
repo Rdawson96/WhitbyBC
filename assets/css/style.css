@@ -38,7 +38,7 @@ header a {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #FFFFFF;
-    font-size: 200%;
+    font-size: 160%;
 }
 
 /* navigation styling */
@@ -85,14 +85,32 @@ nav {
 /* Main content */
 main {
     flex: 1 0 auto;
-    margin-top: 50px;
+    margin: 50px 0 15px 0;
 }
+
+#main-image {
+    height: 500px;
+    width: 100%;
+    background: url(../images/pexels-matt-hardy-1533720.jpg) no-repeat center center/cover;
+    position: relative;
+}
+
+#info {
+    padding: 0 15px;
+}
+
+#pier-image {
+    height: 100px;
+    width: 90%;
+    background: url(../images/Whitby.jpg) no-repeat center center/cover;
+    position: relative;
+}
+
 
 /* Footer */
 
 footer {
     background-color: #046997;
-    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
