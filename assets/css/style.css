@@ -39,13 +39,10 @@ body a {
     color: inherit;
 }
 
+/*Heading Text in top left*/
 #logo {
-    font-family: 'Bebas Neue', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    font-family: 'Barlow Condensed', sans-serif;
     color: #FFFFFF;
-    font-size: 160%;
-    line-height: 10px;
 }
 
 /* navigation styling */
@@ -59,11 +56,12 @@ body a {
     padding-bottom: 5px;
 }
 
+/* underline for active page */
 .active {
     border-bottom: 1px solid #f18e1c;
 }
 
-/* Navbar styles with dropdown toggle */
+/* Navbar styles */
 nav {
     position: absolute;
     background-color: #046997;
@@ -71,22 +69,7 @@ nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #333333;
-    display: none;
     top: 100%;
-}
-
-/* Nav toggle */
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 1.5rem;
-    color: #FFFFFF;
 }
 
 /* Main content */
@@ -155,6 +138,16 @@ main {
 
 .left {
     margin-left: 16px;
+}
+
+/* Save the World Page*/
+
+#earth {
+    height: 150px;
+    width: 150px;
+    background: url(../images/pexels-pixabay-87651.jpg) no-repeat center center/cover;
+    position: relative;
+    border-radius: 50%;
 }
 
 /* Volunteer Page*/
@@ -252,8 +245,8 @@ footer {
 }
 
 
-/* Media query: tablets and larger (1000px and up) */
-@media screen and (min-width: 1000px) {
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
 
     /* Header */
     nav {
@@ -271,10 +264,6 @@ footer {
 
     #navigation>li {
         padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
     }
 
     #logo {
