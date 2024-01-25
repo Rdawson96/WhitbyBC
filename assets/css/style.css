@@ -142,6 +142,16 @@ main {
     margin-left: 16px;
 }
 
+/* Volunteer Page*/
+
+.signup-button {
+    text-decoration: none;
+    padding: 1rem;
+    background-color: #046997;
+    color: #FFFFFF;
+    display: block;
+}
+
 /* Footer */
 
 footer {
