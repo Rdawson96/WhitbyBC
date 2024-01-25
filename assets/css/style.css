@@ -100,12 +100,16 @@ main {
     color: #FFFFFF;
 }
 
-#title {
-    font-size: 150%;
-    text-align: center;
+#main-header {
     background-color: #046997;
     color: #FFFFFF;
+}
+
+.title {
+    font-size: 150%;
+    text-align: center;
     width: 100%;
+    margin: 0 auto;
 }
 
 /* Info Section Styles */
