@@ -133,15 +133,6 @@ main {
     margin-top: 10px;
 }
 
-#index-image {
-    height: 250px;
-    width: 100%;
-    background: url(../images/pexels-ron-lach-9034102.jpg) no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
-    flex: 1;
-}
-
 #text-main {
     flex: 1;
     padding: 0 1rem;
@@ -200,7 +191,7 @@ footer {
 }
 
 /* Media query: tablets and larger (1000px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
 
     /* Header */
     nav {
@@ -233,14 +224,13 @@ footer {
     #info {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
 
-    #index-image {
-        height: 500px;
-        align-self: flex-end;
-    }
-
-    #text-main>div {
-        align-self: flex-start
+    #text-main {
+        flex: 1;
+        padding: 0 1rem;
+        order: -1;
+        width: 50%;
     }
 }
