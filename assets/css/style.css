@@ -144,6 +144,10 @@ main {
 
 /* Volunteer Page*/
 
+#form-sign-up {
+    padding: 0 10%;
+}
+
 .signup-button {
     text-decoration: none;
     padding: 1rem;
@@ -151,6 +155,8 @@ main {
     color: #FFFFFF;
     display: block;
 }
+
+
 
 /* Footer */
 
