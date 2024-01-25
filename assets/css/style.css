@@ -28,7 +28,7 @@ header {
     justify-content: space-between;
     padding: 0 1rem;
     align-items: center;
-    height: 50px;
+    height: 60px;
     box-shadow: 0 2px 2px #333333;
 }
 
@@ -44,6 +44,7 @@ header a {
     letter-spacing: 2px;
     color: #FFFFFF;
     font-size: 160%;
+    line-height: 10px;
 }
 
 /* navigation styling */
@@ -90,7 +91,7 @@ nav {
 /* Main content */
 main {
     flex: 1 0 auto;
-    margin: 50px 0 15px 0;
+    margin: 60px 0 15px 0;
 }
 
 #main-image {
@@ -114,28 +115,36 @@ main {
 }
 
 #info {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#info p {
     padding: 0 15px;
 }
 
-#small-image {
-    height: 150px;
-    width: 95%;
-    background: url(../images/pexels-ron-lach-9034102.jpg) no-repeat center center/cover;
-    position: relative;
-    justify-content: center;
-}
-
-#info div,
-#contact div {
+#info div {
     margin-top: 10px;
 }
 
+#index-image {
+    height: 150px;
+    width: 100%;
+    background: url(../images/pexels-ron-lach-9034102.jpg) no-repeat center center/cover;
+    position: relative;
+    justify-content: center;
+    flex: 1;
+}
 
+#about-us,
+#contact-details {
+    flex: 1;
+    padding: 0 1rem;
+}
 
 .left {
     margin-left: 16px;
 }
-
 
 /* Footer */
 
@@ -162,4 +171,58 @@ footer {
 
 #social-networks li {
     padding-left: 5px;
+}
+
+/* Media query: tablets and larger (1000px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        display: contents;
+    }
+
+    #navigation {
+        display: flex;
+    }
+
+    #navigation>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 300%;
+        line-height: 10px;
+        letter-spacing: 2px;
+    }
+
+    #cover-message {
+        width: 300px;
+        right: 50px;
+    }
+
+    #info {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #index-image {
+        height: 400px;
+    }
+
+    #about-us>div {
+        align-self: flex-start
+    }
+
+    #contact-details>div {
+        align-self: flex-end;
+    }
 }
