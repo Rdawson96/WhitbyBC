@@ -161,7 +161,7 @@ main {
     margin: 0 auto;
 }
 
-#reasons {
+.page-content {
     display: flex;
     flex-direction: column;
     margin: 5px 10px;
@@ -258,55 +258,51 @@ footer {
         align-self: flex-end;
     }
 
-    /* Footer Styles */
-    #contact-footer {
-        flex-direction: row;
-        justify-content: space-around;
-    }
+    /* Save world Styles*/
 }
 
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+    /* Media query: tablets and larger (768px and up) */
+    @media screen and (min-width: 768px) {
 
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-        display: contents;
-    }
+        /* Header */
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+            padding-right: 1rem;
+            display: contents;
+        }
 
-    #navigation {
-        display: flex;
-    }
+        #navigation {
+            display: flex;
+        }
 
-    #navigation>li {
-        padding-left: 1rem;
-    }
+        #navigation>li {
+            padding-left: 1rem;
+        }
 
-    #logo {
-        font-size: 250%;
-        line-height: 10px;
-        letter-spacing: 2px;
-    }
+        #logo {
+            font-size: 250%;
+            line-height: 10px;
+            letter-spacing: 2px;
+        }
 
-    main {
-        margin-top: 60px;
-    }
+        main {
+            margin-top: 60px;
+        }
 
-    #info {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+        #info {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
 
-    #text-main {
-        flex: 1;
-        padding: 0 1rem;
-        order: -1;
-        width: 50%;
+        #text-main {
+            flex: 1;
+            padding: 0 1rem;
+            order: -1;
+            width: 50%;
+        }
     }
-}
