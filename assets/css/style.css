@@ -107,16 +107,22 @@ main {
     font-size: 130%;
     position: absolute;
     bottom: 40px;
-    width: 80%;
+    width: 250px;
     min-height: 100px;
     padding-top: 10px;
     padding-left: 10px;
     color: #FFFFFF;
+    left: 50px;
+}
+
+#title {
+    font-size: 200%;
+    text-align: center;
 }
 
 #info {
     width: 90%;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 #info p {
@@ -128,7 +134,7 @@ main {
 }
 
 #index-image {
-    height: 150px;
+    height: 250px;
     width: 100%;
     background: url(../images/pexels-ron-lach-9034102.jpg) no-repeat center center/cover;
     position: relative;
@@ -155,11 +161,20 @@ footer {
     width: 100%;
 }
 
-#social-networks {
-    text-align: center;
-    padding: 15px 10px;
+#contact-footer {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    padding: 5px 0;
+}
+
+#contact-footer div {
+    padding: 10px 0px;
+}
+
+#social-networks {
+    display: flex;
     list-style-type: none;
 }
 
@@ -171,6 +186,14 @@ footer {
 
 #social-networks li {
     padding-left: 5px;
+}
+
+/* Media queryy: large or landscape phones (576px and up)*/
+@media screen and (min-width: 576px) {
+    #contact-footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 /* Media query: tablets and larger (1000px and up) */
@@ -204,18 +227,13 @@ footer {
         letter-spacing: 2px;
     }
 
-    #cover-message {
-        width: 300px;
-        right: 50px;
-    }
-
     #info {
         display: flex;
         flex-direction: row;
     }
 
     #index-image {
-        height: 400px;
+        height: 500px;
     }
 
     #about-us>div {
