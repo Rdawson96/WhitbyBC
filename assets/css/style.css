@@ -117,10 +117,20 @@ main {
     padding: 0 15px;
 }
 
+#small-image {
+    height: 150px;
+    width: 95%;
+    background: url(../images/pexels-ron-lach-9034102.jpg) no-repeat center center/cover;
+    position: relative;
+    justify-content: center;
+}
+
 #info div,
 #contact div {
     margin-top: 10px;
 }
+
+
 
 .left {
     margin-left: 16px;
