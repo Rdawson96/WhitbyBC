@@ -154,6 +154,20 @@ main {
     background: url(../images/pexels-pixabay-87651.jpg) no-repeat center center/cover;
     position: relative;
     border-radius: 50%;
+    order: 1;
+}
+
+#earth-r1,
+#earth-r2,
+#earth-r3 {}
+
+#earth-r1,
+#earth-r2 {
+    order: 0;
+}
+
+#earth-r3 {
+    order: 2;
 }
 
 /* Volunteer Page Styles */
