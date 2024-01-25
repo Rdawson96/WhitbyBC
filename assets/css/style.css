@@ -129,13 +129,21 @@ main {
     padding: 0 15px;
 }
 
-#info div {
-    margin-top: 10px;
-}
-
 #text-main {
     flex: 1;
     padding: 0 1rem;
+}
+
+#text-body div {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#side-image {
+    height: 500px;
+    width: 100%;
+    background: url(../images/pexels-ron-lach-9034102.jpg) no-repeat center center/cover;
+    position: relative;
 }
 
 .left {
@@ -204,7 +212,33 @@ footer {
     #cover-message {
         left: 50px;
     }
+
+    #text-main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #text-main>div {
+        flex: 1;
+    }
+
+    #side-image {
+        order: 1
+    }
+
+    #text-body {
+        order: 0;
+    }
+
+    #text-body>div {
+        align-self: flex-start;
+    }
+
+    #side-image>div {
+        align-self: flex-end;
+    }
 }
+
 
 /* Media query: tablets and larger (1000px and up) */
 @media screen and (min-width: 1000px) {
