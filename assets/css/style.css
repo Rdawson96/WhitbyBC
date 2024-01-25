@@ -117,11 +117,13 @@ main {
     padding: 0 15px;
 }
 
-#pier-image {
-    height: 100px;
-    width: 90%;
-    background: url(../images/Whitby.jpg) no-repeat center center/cover;
-    position: relative;
+#info div,
+#contact div {
+    margin-top: 10px;
+}
+
+.left {
+    margin-left: 16px;
 }
 
 
