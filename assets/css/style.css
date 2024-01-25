@@ -172,6 +172,16 @@ main {
 }
 
 /* Volunteer Page Styles */
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 #form-sign-up {
     padding: 0 10%;
 }
