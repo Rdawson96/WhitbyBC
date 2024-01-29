@@ -5,13 +5,21 @@ Whitby beach clean is a fictional community group located in the town of Whitby 
 The purpose of this website is to promote the group and its events in the Whitby community. The target audience is both new and existing members of the community and of any demographic.
 
 ## Features
+
 ### Colours Used
+
 ### Wireframes
+
 ## Testing
+
 ### Manual testing
+
 ## Bugs
+
 ### Solved bugs
+
 ## Validator Testing
+
 ### HTML
 
 W3C HTML Validator
@@ -29,6 +37,9 @@ Lighthouse testing
 ## Deployment
 
 ## Credits
+
 ### Content
+
 ### images
+
 ### Learning Resources

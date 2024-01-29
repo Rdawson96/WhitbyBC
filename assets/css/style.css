@@ -59,10 +59,10 @@ body a {
 
 /* underline for active page */
 .active {
-    border-bottom: 1px solid #f18e1c;
+    border-bottom: 2px solid #f18e1c;
 }
 
-/* Navbar styles */
+/* Navbar style */
 nav {
     position: absolute;
     background-color: #046997;
@@ -152,10 +152,9 @@ main {
 
 /* Save the World Page Styles */
 
-#earth {
-    height: 150px;
-    width: 150px;
-    background: url(../images/pexels-pixabay-87651.jpg) no-repeat center center/cover;
+#earth img {
+    height: 250px;
+    width: 250px;
     position: relative;
     border-radius: 50%;
     margin: 0 auto;
@@ -272,47 +271,52 @@ footer {
 }
 
 
-    /* Media query: tablets and larger (768px and up) */
-    @media screen and (min-width: 768px) {
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
 
-        /* Header */
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
-            display: contents;
-        }
-
-        #navigation {
-            display: flex;
-        }
-
-        #navigation>li {
-            padding-left: 1rem;
-        }
-
-        #logo {
-            font-size: 250%;
-            line-height: 10px;
-            letter-spacing: 2px;
-        }
-
-        main {
-            margin-top: 60px;
-        }
-
-        #info {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-
-        #text-main {
-            flex: 1;
-            padding: 0 1rem;
-            order: -1;
-            width: 50%;
-        }
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        display: contents;
     }
+
+    #navigation {
+        display: flex;
+    }
+
+    #navigation>li {
+        padding-left: 1rem;
+    }
+
+    #logo {
+        font-size: 250%;
+        line-height: 10px;
+        letter-spacing: 2px;
+    }
+
+    main {
+        margin-top: 60px;
+    }
+
+    #info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #text-main {
+        flex: 1;
+        padding: 0 1rem;
+        order: -1;
+        width: 50%;
+    }
+
+    #earth img {
+        height: 350px;
+        width: 350px;
+    }
+}
