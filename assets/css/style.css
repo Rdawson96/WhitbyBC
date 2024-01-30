@@ -8,10 +8,21 @@
 }
 
 h1,
-h2,
-h3 {
+h2 {
     text-transform: uppercase;
     font-size: 150%;
+}
+
+h3 {
+    font-size: 140%;
+}
+
+h4 {
+    font-size: 130%;
+}
+
+h5 {
+    font-size: 120%;
 }
 
 /* Body Styles */
@@ -152,11 +163,15 @@ main {
     justify-content: center;
 }
 
+#earth-r1>div {
+    padding-bottom: 1rem;
+}
+
 #page-content {
     display: flex;
     flex-direction: column;
-    background: url(../images/pexels-francesco-ungaro.jpg) no-repeat center center/cover;
     height: 100vh;
+    margin: 1rem;
 }
 
 /* Volunteer Page Styles */
@@ -169,6 +184,16 @@ main {
     line-height: 0;
 }
 
+#events h4 {
+    padding-top: 5px;
+
+}
+
+#events p {
+    padding-left: 5px;
+}
+
+/* Form styles */
 #form-sign-up {
     padding: 1rem 10%;
 }
@@ -357,8 +382,13 @@ footer div {
         order: 1
     }
 
+    #earth-r1 {
+        padding-right: 0.5rem;
+    }
+
     #earth-r2 {
         order: 2;
+        padding-left: 0.5rem;
     }
 
     #earth-r1>div {
