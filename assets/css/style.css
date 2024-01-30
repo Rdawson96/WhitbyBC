@@ -265,7 +265,6 @@ footer div {
     }
 
     #logo {
-        font-size: 200%;
         line-height: 10px;
         letter-spacing: 2px;
     }
@@ -320,6 +319,14 @@ footer div {
 @media screen and (min-width: 768px) {
 
     /* Index styles */
+
+    #navigation {
+        font-size: 150%
+    }
+
+    #logo {
+        font-size: 250%;
+    }
 
     #info {
         display: flex;
