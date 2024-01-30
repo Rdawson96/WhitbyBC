@@ -155,6 +155,8 @@ main {
     width: 250px;
     border-radius: 50%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .page-content {
@@ -347,5 +349,11 @@ footer {
     #photos {
         column-count: 4;
         column-gap: 0;
+    }
+
+    #contact-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
