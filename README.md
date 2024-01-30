@@ -10,6 +10,8 @@ The purpose of this website is to promote the group and its events in the Whitby
 
 ### Wireframes
 
+Balsamiq has been used to show the appearen
+
 ## Testing
 
 ### Manual testing
