@@ -52,7 +52,7 @@ body a {
 /* navigation styling */
 #navigation {
     list-style-type: none;
-    font-size: 120%;
+    font-size: 150%;
     color: #FFFFFF;
 }
 
@@ -80,6 +80,7 @@ nav {
 main {
     flex: 1;
     margin-top: 144px;
+    font-size: 120%;
 }
 
 /* Main Image Styles */
