@@ -234,6 +234,34 @@ footer {
 
 /* Media query: large or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding: 1rem;
+        display: contents;
+    }
+
+    #navigation {
+        display: flex;
+    }
+
+    #navigation>li {
+        padding: 0 0.5rem;
+    }
+
+    #logo {
+        font-size: 170%;
+        line-height: 10px;
+        letter-spacing: 2px;
+    }
+
+    main {
+        margin-top: 60px;
+    }
+
     #cover-message {
         left: 50px;
     }
@@ -266,9 +294,12 @@ footer {
 
     /* Save world Styles*/
 
+    /* Volunteer Image */
+
     #photos {
         column-count: 2;
         column-gap: 0;
+        height: 50%;
     }
 }
 
@@ -276,34 +307,7 @@ footer {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding: 1rem;
-        display: contents;
-        font-size: 130%;
-    }
-
-    #navigation {
-        display: flex;
-    }
-
-    #navigation>li {
-        padding: 0 0.5rem;
-    }
-
-    #logo {
-        font-size: 250%;
-        line-height: 10px;
-        letter-spacing: 2px;
-    }
-
-    main {
-        margin-top: 60px;
-    }
+    /* Index styles */
 
     #info {
         display: flex;
@@ -318,6 +322,7 @@ footer {
         width: 50%;
     }
 
+    /* Save world Styles*/
     #page-content {
         display: flex;
         flex-direction: row;
@@ -345,11 +350,14 @@ footer {
         align-self: flex-end;
     }
 
+    /* Volunteer styles */
     #photos {
-        column-count: 4;
+        column-count: 2;
         column-gap: 0;
+        height: 50%;
     }
 
+    /* Footer */
     #contact-footer {
         display: flex;
         flex-direction: row;
