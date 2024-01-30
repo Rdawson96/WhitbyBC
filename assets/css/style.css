@@ -127,22 +127,17 @@ main {
     padding: 0 15px;
 }
 
-/*#text-main {
-    flex: 1;
-    padding: 0 1rem;
-}*/
-
 #text-body div {
     margin: 1.5rem;
     display: flex;
     flex-direction: column;
 }
 
-#side-image {
+#second-image {
     height: 500px;
     width: 100%;
-    background: url(../images/pexels-ron-lach-9034102.jpg) no-repeat center center/cover;
     position: relative;
+    object-fit: cover;
 }
 
 /* Save the World Page Styles */
@@ -214,9 +209,6 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-}
-
-#contact-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -224,7 +216,7 @@ footer {
     padding: 5px 0;
 }
 
-#contact-footer div {
+footer div {
     padding: 10px 0px;
 }
 
@@ -292,7 +284,7 @@ footer {
         flex: 1;
     }
 
-    #side-image {
+    #second-image {
         order: 1;
         height: 100%;
     }
@@ -305,7 +297,7 @@ footer {
         align-self: flex-start;
     }
 
-    #side-image>div {
+    #second-image>div {
         align-self: flex-end;
     }
 
@@ -390,7 +382,7 @@ footer {
     }
 
     /* Footer */
-    #contact-footer {
+    footer {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
