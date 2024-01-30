@@ -94,6 +94,23 @@ main {
     font-size: 120%;
 }
 
+.page-title {
+    font-size: 150%;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    background-color: #046997;
+    color: #FFFFFF;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+/* index page styles*/
+
 /* Main Image Styles */
 #main-image {
     height: 500px;
@@ -113,21 +130,6 @@ main {
     padding-top: 10px;
     padding-left: 10px;
     color: #FFFFFF;
-}
-
-.page-title {
-    font-size: 150%;
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-    padding: 1rem 0;
-    background-color: #046997;
-    color: #FFFFFF;
-}
-
-.center {
-    display: flex;
-    align-items: center;
 }
 
 /* Info Section Styles */
@@ -168,14 +170,15 @@ main {
     display: flex;
 }
 
-#earth-r1>div {
+#earth-section-1>div,
+#earth-section-2>div {
     padding-bottom: 1rem;
 }
 
 #page-content {
     display: flex;
     flex-direction: column;
-    margin: 1rem;
+    margin: 1rem 2rem;
 }
 
 /* Volunteer Page Styles */
@@ -332,8 +335,6 @@ footer div {
         align-self: flex-end;
     }
 
-    /* Save world Styles*/
-
     /* Volunteer Image */
 
     #photos {
@@ -386,20 +387,20 @@ footer div {
         order: 1
     }
 
-    #earth-r1 {
+    #earth-section-1 {
         padding-right: 0.5rem;
     }
 
-    #earth-r2 {
+    #earth-section-2 {
         order: 2;
         padding-left: 0.5rem;
     }
 
-    #earth-r1>div {
+    #earth-section-1>div {
         align-self: flex-start;
     }
 
-    #earth-r2>div {
+    #earth-section-2>div {
         align-self: flex-end;
     }
 
@@ -441,5 +442,11 @@ footer div {
         column-count: 2;
         column-gap: 0;
         height: 50%;
+    }
+
+    /* Save world Styles*/
+    #earth img {
+        height: 500px;
+        width: 500px;
     }
 }
