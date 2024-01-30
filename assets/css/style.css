@@ -90,7 +90,7 @@ nav {
 /* Main content pushed down to accomodate nav */
 main {
     flex: 1;
-    margin-top: 144px;
+    margin-top: 162px;
     font-size: 120%;
 }
 
@@ -163,6 +163,11 @@ main {
     justify-content: center;
 }
 
+#earth {
+    align-items: center;
+    display: flex;
+}
+
 #earth-r1>div {
     padding-bottom: 1rem;
 }
@@ -170,7 +175,6 @@ main {
 #page-content {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     margin: 1rem;
 }
 
