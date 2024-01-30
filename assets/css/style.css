@@ -151,10 +151,11 @@ main {
     justify-content: center;
 }
 
-.page-content {
+#page-content {
     display: flex;
     flex-direction: column;
-    margin: 5px 10px;
+    background: url(../images/pexels-francesco-ungaro.jpg) no-repeat center center/cover;
+    height: 100vh;
 }
 
 /* Volunteer Page Styles */
@@ -188,7 +189,7 @@ form div {
 
 .signup-button {
     width: 10rem;
-    height: 2.5rem;
+    padding: 1.25rem 0;
     background-color: #f18e1c;
     color: #FFFFFF;
     border: none;
