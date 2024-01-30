@@ -216,6 +216,7 @@ footer {
     padding: 10px 0px;
 }
 
+
 /* Social Networks Icons Styles */
 #social-networks {
     display: flex;
@@ -226,6 +227,10 @@ footer {
     font-size: 200%;
     padding: 0.5rem 1rem;
     color: #ffffff;
+}
+
+#social-networks i:hover {
+    color: #f18e1c;
 }
 
 #social-networks li {
