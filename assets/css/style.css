@@ -26,7 +26,7 @@ header {
     display: flex;
     position: fixed;
     z-index: 999;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0 1rem;
     align-items: center;
     height: 60px;
@@ -112,8 +112,6 @@ main {
 
 /* Info Section Styles */
 #info {
-    width: 90%;
-    margin: 0 auto;
     display: flex;
 }
 
@@ -121,13 +119,13 @@ main {
     padding: 0 15px;
 }
 
-#text-main {
+/*#text-main {
     flex: 1;
     padding: 0 1rem;
-}
+}*/
 
 #text-body div {
-    margin: 10px;
+    margin: 1.5rem;
     display: flex;
     flex-direction: column;
 }
@@ -225,8 +223,8 @@ footer {
 }
 
 #social-networks i {
-    font-size: 150%;
-    padding: 5%;
+    font-size: 200%;
+    padding: 0.5rem 1rem;
     color: #ffffff;
 }
 
@@ -284,8 +282,9 @@ footer {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        padding: 1rem;
         display: contents;
+        font-size: 130%;
     }
 
     #navigation {
@@ -293,7 +292,7 @@ footer {
     }
 
     #navigation>li {
-        padding-left: 1rem;
+        padding: 0 0.5rem;
     }
 
     #logo {
