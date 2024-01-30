@@ -127,8 +127,8 @@ main {
     bottom: 40px;
     width: 270px;
     min-height: 100px;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding-top: 0.8rem;
+    padding-left: 0.8rem;
     color: #FFFFFF;
 }
 
@@ -138,7 +138,7 @@ main {
 }
 
 #info p {
-    padding: 0 15px;
+    padding: 0 1rem;
 }
 
 #text-body div {
@@ -192,12 +192,13 @@ main {
 }
 
 #events h4 {
-    padding-top: 5px;
+    padding-top: 0.5rem;
 
 }
 
 #events p {
-    padding-left: 5px;
+    padding-left: 0.5rem;
+    padding-bottom: 0.75rem;
 }
 
 /* Form styles */
@@ -210,7 +211,7 @@ main {
 }
 
 form div {
-    margin: 10px 0;
+    margin: 1rem 0;
 }
 
 .text-input-box {
