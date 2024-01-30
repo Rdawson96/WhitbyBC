@@ -8,8 +8,10 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
     text-transform: uppercase;
+    font-size: 150%;
 }
 
 /* Body Styles */
@@ -44,6 +46,7 @@ body a {
 #logo {
     font-family: 'Barlow Condensed', sans-serif;
     color: #FFFFFF;
+    font-size: 200%;
 }
 
 /* navigation styling */
@@ -110,6 +113,11 @@ main {
     color: #FFFFFF;
 }
 
+.center {
+    display: flex;
+    align-items: center;
+}
+
 /* Info Section Styles */
 #info {
     display: flex;
@@ -137,15 +145,6 @@ main {
     position: relative;
 }
 
-.center {
-    display: flex;
-    align-items: center;
-}
-
-.left {
-    margin-left: 16px;
-}
-
 /* Save the World Page Styles */
 
 #earth img {
@@ -163,12 +162,7 @@ main {
     margin: 5px 10px;
 }
 
-.spacer {
-    margin: 5px 0;
-}
-
 /* Volunteer Page Styles */
-
 #photos img {
     width: 100%;
     line-height: 1em;
@@ -179,17 +173,35 @@ main {
 }
 
 #form-sign-up {
-    padding: 0 10%;
+    padding: 1rem 10%;
+}
+
+#form-sign-up form {
+    padding: 1rem 0;
+}
+
+form div {
+    margin: 10px 0;
+}
+
+.text-input-box {
+    width: 100%;
+    padding: 0.4rem 0;
+    border: 0.5px solid;
+    border-radius: 5px;
 }
 
 .signup-button {
-    padding: 5px 10px;
+    width: 10rem;
+    height: 2.5rem;
     background-color: #f18e1c;
     color: #FFFFFF;
     border: none;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 106%;
     border-radius: 10px;
+    margin: 0.5rem 0;
+    text-align: center;
 }
 
 .signup-button:hover {
@@ -258,7 +270,7 @@ footer {
     }
 
     #logo {
-        font-size: 170%;
+        font-size: 250%;
         line-height: 10px;
         letter-spacing: 2px;
     }
@@ -357,9 +369,24 @@ footer {
 
     /* Volunteer styles */
     #photos {
-        column-count: 2;
+        column-count: 1;
         column-gap: 0;
         height: 50%;
+    }
+
+    #main-content {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #image-gallery {
+        width: 50%;
+        height: 100%;
+    }
+
+    #form-sign-up {
+        width: 50%;
+        padding: 1rem 5rem 1rem 1rem;
     }
 
     /* Footer */
@@ -367,5 +394,16 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+}
+
+/* Media query: desktop monitors (1100px and up) */
+@media screen and (min-width: 1100px) {
+
+    /* Volunteer styles */
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+        height: 50%;
     }
 }

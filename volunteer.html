@@ -30,57 +30,63 @@
         </nav>
     </header>
     <!--main-->
-    <main class="main-content">
+    <main>
         <h1 class="page-title">Volunteer with us!</h1>
-        <section id="image gallery">
-            <div id="photos">
-                <img src="assets/images/pexels-kirill-ozerov-9620528.jpg" alt="Man putting cardboard in a bin bag">
-                <img src="assets/images/pexels-thirdman-7656742.jpg" alt="Man and woman picking up plastic from bushes">
-                <img src="assets/images/pexels-ron-lach-9037597.jpg" alt="Woman showing a group plastic waste">
-                <img src="assets/images/trash-4897350_1280.jpg" alt="Beach Littered in plastic">
+        <section id="main-content">
+            <div id="image-gallery">
+                <div id="photos">
+                    <img src="assets/images/pexels-kirill-ozerov-9620528.jpg" alt="Man putting cardboard in a bin bag">
+                    <img src="assets/images/pexels-thirdman-7656742.jpg"
+                        alt="Man and woman picking up plastic from bushes">
+                    <img src="assets/images/pexels-ron-lach-9037597.jpg" alt="Woman showing a group plastic waste">
+                    <img src="assets/images/trash-4897350_1280.jpg" alt="Beach Littered in plastic">
+                </div>
             </div>
-        </section>
-        <section id="form-sign-up">
-            <div>
-                <h3>Upcoming events</h3>
-                <p>
-                    Join us for an upcoming beach clean events organized by Whitby Beach Clean!
-                    <br><br>
-                    Our event will take place next Saturday on
-                    the beautiful shores of Whitby Beach. It's a fantastic opportunity to contribute to the health of
-                    our marine environment
-                    and meet like-minded community members.
-                    <br><br>
-                    We'll provide all the necessary equipment - just bring your enthusiasm and love
-                    for our beaches. See you there!
-                </p>
-            </div>
-            <form action="https://formdump.codeinstitute.net" method="POST">
+            <div id="form-sign-up">
                 <div>
+                    <h3>Upcoming events</h3>
+                    <p>
+                        Join us for an upcoming beach clean events organized by Whitby Beach Clean!
+                        <br><br>
+                        Our event will take place next Saturday on
+                        the beautiful shores of Whitby Beach. It's a fantastic opportunity to contribute to the health
+                        of
+                        our marine environment
+                        and meet like-minded community members.
+                        <br><br>
+                        We'll provide all the necessary equipment - just bring your enthusiasm and love
+                        for our beaches. See you there!
+                    </p>
+                </div>
+                <form action="https://formdump.codeinstitute.net" method="POST">
+
                     <h2>Sign up!</h2>
-                    <label for="first-name">First Name:</label>
-                    <input id="first-name" type="text" name="first_name" required="">
+                    <hr>
+                    <div>
+                        <label for="first-name">First Name:</label>
+                        <input id="first-name" type="text" name="first_name" required="" class="text-input-box">
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name:</label>
+                        <input id="last-name" type="text" name="last_name" required="" class="text-input-box">
+                    </div>
+                    <div>
+                        <label for="email">Email Address:</label>
+                        <input id="email" type="email" name="email_address" required="" class="text-input-box">
+                    </div>
+                    <div>
+                        <label for="newsletter">Sign up for our Newsletter?</label>
+                        <input id="newsletter" type="checkbox" name="newsletter">
+                    </div>
+                    <input class="signup-button" type="submit" value="Sign Up">
+                </form>
+                <div id="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9269.657460732207!2d-0.6204774!3d54.4909139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487f1764306842e1%3A0x3d3caa23c961b939!2sWhitby%20Sea%20Front!5e0!3m2!1sen!2suk!4v1706158643643!5m2!1sen!2suk"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div>
-                    <label for="last-name">Last Name:</label>
-                    <input id="last-name" type="text" name="last_name" required="">
-                </div>
-                <div>
-                    <label for="email">Email Address:</label>
-                    <input id="email" type="email" name="email_address" required="">
-                </div>
-                <div>
-                    <label for="newsletter">Sign up for our Newsletter?</label>
-                    <input id="newsletter" type="checkbox" name="newsletter">
-                </div>
-                <input class="signup-button" type="submit" value="Sign Up">
-            </form>
-        </section>
-        <section id="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9269.657460732207!2d-0.6204774!3d54.4909139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487f1764306842e1%3A0x3d3caa23c961b939!2sWhitby%20Sea%20Front!5e0!3m2!1sen!2suk!4v1706158643643!5m2!1sen!2suk"
-                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </section>
     </main>
     <!-- Footer  -->
