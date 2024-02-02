@@ -31,6 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    color: #1E4462;
 }
 
 header {
@@ -100,8 +101,8 @@ main {
     width: 100%;
     margin: 0 auto;
     padding: 1rem 0;
-    background-color: #1E4462;
-    color: #FFFFFF;
+    background-color: #B8DBF5;
+    color: #1E4462;
 }
 
 .center {
