@@ -79,7 +79,7 @@ body a {
 /* Navbar style */
 nav {
     position: absolute;
-    background-color: #046997;
+    background-color: #1E4462;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -100,7 +100,7 @@ main {
     width: 100%;
     margin: 0 auto;
     padding: 1rem 0;
-    background-color: #046997;
+    background-color: #1E4462;
     color: #FFFFFF;
 }
 
@@ -235,7 +235,7 @@ form div {
 }
 
 .signup-button:hover {
-    background-color: #046997;
+    background-color: #1E4462;
 }
 
 #map iframe {
@@ -246,7 +246,7 @@ form div {
 
 /* Footer Styles */
 footer {
-    background-color: #046997;
+    background-color: #1E4462;
     bottom: 0;
     left: 0;
     width: 100%;
