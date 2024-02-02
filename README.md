@@ -8,7 +8,47 @@ The purpose of this website is to promote the community group and its events in 
 
 Please find a link to the deployed site [here](https://rdawson96.github.io/WhitbyBC/)
 
+## Table of Contents
 
+- [Whitby Beach Clean](#whitby-beach-clean)
+  - [Table of Contents](#table-of-contents)
+  - [User Experience](#user-experience)
+    - [Project Goals](#project-goals)
+    - [Colours Used](#colours-used)
+    - [Wireframes](#wireframes)
+  - [Features](#features)
+  - [Frameworks and Programs Used](#frameworks-and-programs-used)
+    - [Languages used](#languages-used)
+  - [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+    - [Manual testing](#manual-testing)
+    - [Bugs](#bugs)
+    - [Solved bugs](#solved-bugs)
+    - [Accessibility](#accessibility)
+    - [Unfixed bugs](#unfixed-bugs)
+  - [Finished Product](#finished-product)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [images I took](#images-i-took)
+    - [Learning Resources](#learning-resources)
+
+## User Experience
+
+### Project Goals
+
+
+### Colours Used
+
+### Wireframes
+
+Balsamiq has been used to show the appearance of the site on different devices
+
+|Page | Desktop Version | Mobile Version |
+|--- | --- | --- |
+|Index |![Desktop index wireframe image](assets/wireframes/index-wireframe.png) | ![Mobile index wireframe image](assets/wireframes/mobile-index-wireframe.png) |
+|Save the World | ![Desktop save the world wireframe image](assets/wireframes/world-wireframe.png) | ![Mobile Save the World wireframe image](assets/wireframes/mobile-world-wireframe.png) |
+|Volunteer | ![Desktop Volunteerireframe image](assets/wireframes/volunteer-wireframe.png) | ![Mobile Volunteer wireframe image](assets/wireframes/mobile-volunteer-wireframe.png) |
 
 ## Features
 
@@ -23,24 +63,12 @@ other ways to help the planet
 volunteer page with sign up form
 
 gallery
- 
 
-### Colours Used
+explain the value that each feature adds to the website
 
-### Wireframes
 
-Balsamiq has been used to show the appearance of the site on different devices
 
-|Page | Desktop Version | Mobile Version |
-|--- | --- | --- |
-|Index |![Desktop index wireframe image](assets/wireframes/index-wireframe.png) | ![Mobi
-le index wireframe image](assets/wireframes/mobile-index-wireframe.png) |
-|Save the World | ![Desktop save the world wireframe image](assets/wireframes/world-wireframe.png) | ![Mobile Save the World wireframe image](assets/wireframes/mobile-world-wireframe.png) |
-|Volunteer | ![Desktop Volunteerireframe image](assets/wireframes/volunteer-wireframe.png) | ![Mobile Volunteer wireframe image](assets/wireframes/mobile-volunteer-wireframe.png) |
-
-### Features left to implement
-
-### Frameworks and Programs Used
+## Frameworks and Programs Used
 
 * [Codeanywhere](https://app.codeanywhere.com/)
      - GitPod was used for writing code, committing, and then pushing to GitHu*. [GitHub](https://git*com/)
@@ -71,6 +99,8 @@ le index wireframe image](assets/wireframes/mobile-index-wireframe.png) |
     - W3C CSS Validator was used to validate the CSS code.
 
 
+### Languages used
+
 ## Testing
 
 ### Validator Testing
@@ -84,7 +114,7 @@ le index wireframe image](assets/wireframes/mobile-index-wireframe.png) |
 
 ### Manual testing
 
-## Bugs
+### Bugs
 
 ### Solved bugs
 
@@ -93,6 +123,8 @@ le index wireframe image](assets/wireframes/mobile-index-wireframe.png) |
 Lighthouse testing
 
 ### Unfixed bugs
+
+## Finished Product
 
 ## Deployment
 
