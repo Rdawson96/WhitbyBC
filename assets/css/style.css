@@ -285,6 +285,14 @@ footer div {
 }
 
 /* Media query: large or landscape phones (576px and up)*/
+@media screen and (max-width: 576px) {
+
+.hidden-img {
+    display: none;
+}
+}
+
+/* Media query: large or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
 
     nav {
