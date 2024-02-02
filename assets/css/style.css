@@ -112,8 +112,8 @@ main {
 
 /* index page styles*/
 
-/* Main Image Styles */
-#main-image {
+/* Hero Image Styles */
+#hero-image {
     height: 500px;
     width: 100%;
     background: url(../images/pexels-matt-hardy-sea-hero.jpg) no-repeat center center/cover;
@@ -133,11 +133,11 @@ main {
 }
 
 /* Info Section Styles */
-#info {
+#group-info {
     display: flex;
 }
 
-#info p {
+#text-body p {
     padding: 0 1rem;
 }
 
@@ -347,16 +347,17 @@ footer div {
     #second-image>div {
         align-self: flex-end;
     }
+
+
+    /* Volunteer Image */
+
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+        height: 50%;
+    }
+
 }
-
-/* Volunteer Image */
-
-#photos {
-    column-count: 2;
-    column-gap: 0;
-    height: 50%;
-}
-
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -371,7 +372,7 @@ footer div {
         font-size: 250%;
     }
 
-    #info {
+    #group-info {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -461,5 +462,10 @@ footer div {
     #earth img {
         height: 500px;
         width: 500px;
+    }
+
+    /* Footer */
+    footer {
+        font-size: 120%;
     }
 }
