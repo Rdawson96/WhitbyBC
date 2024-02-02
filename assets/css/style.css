@@ -157,8 +157,10 @@ main {
 /* Save the World Page Styles */
 
 #earth img {
-    height: 250px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
+    max-height: 350px;
+    max-width: 350px;
     border-radius: 50%;
     margin: 0 auto;
     display: flex;
