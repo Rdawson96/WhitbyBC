@@ -34,7 +34,7 @@ body {
 }
 
 header {
-    background-color: #046997;
+    background-color: #1E4462;
     width: calc(100% - 1rem - 1rem);
     display: flex;
     position: fixed;
