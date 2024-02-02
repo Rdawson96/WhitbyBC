@@ -42,6 +42,10 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
 
 ### Colours Used
 
+![Color scheme image](assets/readme-images/wbc-color-palette.png)
+
+The colors used in the site are two diferent tones of blue for the header, footer and Nav bars, an orange color and White. These colors were chosen to represent the ocean with the blues and coral with the orange.
+
 ### Wireframes
 
 Balsamiq has been used to show the appearance of the site on different devices
@@ -143,5 +147,6 @@ Lighthouse testing
 ### images I took
 
 ### Learning Resources
+
 <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
 <https://techsini.com/multi-mockup/index.php>
