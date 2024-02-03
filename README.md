@@ -149,10 +149,11 @@ The languages used in this project are:
   - The W3C Markup Validator found errors where I had given a href value an alt attribute on the index page. I was able to delete this.
   - The W3C Markup Validator also found multiple stray end div tags that I deleted from the code.
   - The last error the validator found was that I had used a button as a descendent of an a element. I amended this by removing the button and applying css styling to the a attribute
+  - ![Image of Index page validation errors](assets/readme-images/index-page-errors.png)
 - Volunteer Page
   - The W3C Markup Validator found an error in the use of a % as a measurement on the Iframe. I fixed this by applying an ID and using a percentage through the CSS file. 
   - The W3C Markup Validator also found a stray end div tag that I deleted from the code.
-  - ![Image of Volunteer page validation errors](assets/readme-images/)
+  - ![Image of Volunteer page validation errors](assets/readme-images/volunteer-page-errors.png)
 
 ##### CSS
 - W3C CSS Validator found no errors or warnings on my CSS.
