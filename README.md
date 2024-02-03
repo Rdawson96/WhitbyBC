@@ -25,9 +25,6 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
     - [Languages used](#languages-used)
   - [Testing](#testing)
     - [Validator Testing](#validator-testing)
-    - [Manual testing](#manual-testing)
-    - [Bugs](#bugs)
-    - [Solved bugs](#solved-bugs)
   - [Accessibility](#accessibility)
     - [1. Lighthouse testing](#1-lighthouse-testing)
     - [2. Semantic HTML](#2-semantic-html)
@@ -35,9 +32,13 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
     - [4. Contrast and Readability](#4-contrast-and-readability)
     - [5. Alt Text for Images](#5-alt-text-for-images)
     - [6. Responsive Design](#6-responsive-design)
-    - [Unfixed bugs](#unfixed-bugs)
+    - [Manual testing](#manual-testing)
+    - [Bugs](#bugs)
+      - [Solved bugs](#solved-bugs)
+      - [Unfixed bugs](#unfixed-bugs)
   - [Finished Product](#finished-product)
   - [Deployment](#deployment)
+    - [Github](#github)
   - [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
@@ -142,21 +143,6 @@ explain the value that each feature adds to the website
 - the last error the validaot found was that I had used a button as a descendent of an a element. I amended this by removing the button and applying css styling to the a attribute
 - W3C CSS Validator found no errors or warnings on my CSS.
 
-### Manual testing
-
-| Feature | Test case | Outcome |
-| --- | --- | --- |
-| Logo | | Click on the Logo | User is brought back to the home page |
-| Nav bar - home | --- | --- |
-| Nav bar - Save the world | --- | --- |
-| Nav bar - Volunteer | --- | --- |
-| --- | --- | --- |
-| --- | --- | --- |
-
-### Bugs
-
-### Solved bugs
-
 ## Accessibility
 
 Ensuring that our website is accessible to all users, regardless of their abilities or disabilities, is a priority for us. We strive to follow best practices to make our content usable by a wide audience. Here are some of the steps we have taken to enhance accessibility:
@@ -183,11 +169,43 @@ All images on our website include descriptive alternative text (alt text). This 
 
 Our website is responsive, providing a seamless experience across various devices and screen sizes. This benefits users with different abilities and ensures a consistent and accessible user experience.
 
-### Unfixed bugs
+### Manual testing
+
+| Feature | Test case | Outcome |
+| --- | --- | --- |
+| Logo | | Click on the Logo | User is brought back to the home page |
+| Nav bar - home | --- | --- |
+| Nav bar - Save the world | --- | --- |
+| Nav bar - Volunteer | --- | --- |
+| --- | --- | --- |
+| --- | --- | --- |
+
+### Bugs
+
+#### Solved bugs
+
+#### Unfixed bugs
 
 ## Finished Product
 
+| Page | Desktop | Mobile |
+| --- | --- | --- |
+
 ## Deployment
+
+### Github
+
+- The following steps are to deploy the website to Github Pages from the GitHub repository:
+
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+
+    2. At the top of the Repository, locate the Settings button on the menu.
+
+    3. Scroll down the Settings page until you locate the Pages section.
+
+    4. Under Source, click the dropdown called None and select Master Branch.
+
+    5. The page will refresh automatically and generate a link to your website.
 
 ## Credits
 
