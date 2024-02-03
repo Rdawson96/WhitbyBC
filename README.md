@@ -100,6 +100,8 @@ explain the value that each feature adds to the website
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     - W3C CSS Validator was used to validate the CSS code.
 
+* [Coolers Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5)
+    - Coolers Contrast Checker was used to make sure the colors I used contrasted well enough for all users
 
 ### Languages used
 
