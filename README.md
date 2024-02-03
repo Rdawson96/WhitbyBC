@@ -14,6 +14,7 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
   - [Table of Contents](#table-of-contents)
   - [User Experience](#user-experience)
     - [Project Goals](#project-goals)
+    - [User Stories](#user-stories)
     - [Colours Used](#colours-used)
     - [Wireframes](#wireframes)
   - [Features](#features)
@@ -52,8 +53,12 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
 
 ### Project Goals
 
-- Inform users on the objectives of the community group
-- Offer users the opportunity to sign up to hear more about the upcoming events
+- Inform users on the objectives of the community group.
+- Inform the user on when the next community event is taking place.
+- Offer users the opportunity to sign up to hear more about the upcoming events.
+- Inform the User of further ways they can help do their bit to save the environment.
+
+### User Stories
 
 ### Colours Used
 
@@ -79,7 +84,6 @@ Balsamiq has been used to show the appearance of the site on different devices
   - The header contains the groups logo and navigation bar across the top of each page in the website.
   - The active page is underlined making easy for the user to see what page they are on.
   - The logo functions as a link to the index page.
-- 
 - Heading
   [image of headings and hero image](assets/readme-images/index-hero-image.png)
   - Each page has a bold heading which with a colored background making sure that the user knows the page they are on
@@ -90,7 +94,7 @@ Balsamiq has been used to show the appearance of the site on different devices
 
 ### Landing page
 
-- larger hero image 
+- larger hero image
   [image of headings and hero image](assets/readme-images/index-hero-image.png)
   - Draws the attention of the user and sticks to the ocean theme.
 - body section
@@ -102,21 +106,22 @@ Balsamiq has been used to show the appearance of the site on different devices
 ### Save the world page
 
   ![image of text content of index page](assets/readme-images/save-the-planet-reasons.png)
-  - The Main text body section is used to inform user other ways they can help at home.
-  - The picture of the earth aims to make the member feel like they are making a change if they follow the 4 setps on the page
+
+- The Main text body section is used to inform user other ways they can help at home.
+- The picture of the earth aims to make the member feel like they are making a change if they follow the 4 setps on the page
 
 ### Volunteer page
 
 - Image gallery
   ![image of gallery section on volunteer page](assets/readme-images/volunteer-gallery.png)
-  - the picture gallery is used to give the user a familiar idea as to what the group comminty events look like.
+  - the picture gallery is used to give the user a familiar idea as to what the group community events look like.
 - Volunteer sign up form
   ![image of sign up form on volunteer page](assets/readme-images/volunteer-sign-up-form.png)
   - The sign up form allows the customer to sign up to the mailing list to find out more information about upcoming events.
   - The form also give the user the oppourtinitu to sign up to the groups newsletter allowing the group to gain more members and generate interest.
 - Google Maps iframe
   ![image of map of Whitby on volunteer page](assets/readme-images/map-iframe.png)
-  - The Google maps Iframe shows the member exactly where the group meets. This allows the member to easily locate the group if they wanted to join in 
+  - The Google maps Iframe shows the member exactly where the group meets. This allows the member to easily locate the group if they wanted to join in
 
 ## Frameworks and Programs Used
 
@@ -166,11 +171,11 @@ The languages used in this project are:
   - The W3C Markup Validator found errors where I had given a href value an alt attribute on the index page. I was able to delete this.
   - The W3C Markup Validator also found multiple stray end div tags that I deleted from the code.
   - The last error the validator found was that I had used a button as a descendent of an a element. I amended this by removing the button and applying css styling to the a attribute
-  - [image of Index page validation errors](assets/readme-images/index-page-errors.png)
+  - ![image of Index page validation errors](assets/readme-images/index-page-errors.png)
 - Volunteer Page
   - The W3C Markup Validator found an error in the use of a % as a measurement on the Iframe. I fixed this by applying an ID and using a percentage through the CSS file.
   - The W3C Markup Validator also found a stray end div tag that I deleted from the code.
-  - ![Image of Volunteer page validation errors](assets/readme-images/)
+  - ![Image of Volunteer page validation errors](assets/readme-images/volunteer-page-errors.png)
 
 ##### CSS
 
@@ -186,11 +191,11 @@ Light house in Chrome Dev tools was used to confirm the colors of the site are e
 
 - Lighthouse reports
 - Index page
-  - [Index page lighthouse report](assets/readme-images/index-lighthouse-test.png)
+  - ![Index page lighthouse report](assets/readme-images/index-lighthouse-test.png)
 - Save the world page
-  - [Save the World page lighthouse report](assets/readme-images/save-the-world-lighthouse-test.png)
+  - ![Save the World page lighthouse report](assets/readme-images/save-the-world-lighthouse-test.png)
 - Volunteer page
-  - [Volunteer page lighthouse report](assets/readme-images/volunteer-lighthouse-test.png)
+  - ![Volunteer page lighthouse report](assets/readme-images/volunteer-lighthouse-test.png)
   - The performance could be improved by further reducing the image size.
 
 #### 2. Semantic HTML
@@ -203,7 +208,7 @@ ARIA attributes were utilised on links to enhance the accessibility of the site 
 
 #### 4. Contrast and Readability
 
-[Coolers Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5)was used to ensure  sufficient contrast in colors chosen to make the content readable for users with visual impairments.
+[Coolers Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5) was used to ensure  sufficient contrast in colors chosen to make the content readable for users with visual impairments.
 
 #### 5. Alt Text for Images
 
@@ -219,7 +224,7 @@ The website is responsive, providing a seamless experience across various device
 
 | Feature | Test case | Outcome |
 | --- | --- | --- |
-| Logo | | Click on the Logo | User is brought back to the home page |
+| Logo | Click on the Logo | User is brought back to the home page |
 | Nav bar - home | Click on the Home icon in the Nav bar | User is brought to the home page |
 | Nav bar - Save the world | Click on the Save the World icon in the Nav bar | User is brought to the Save the World page |
 | Nav bar - Volunteer | Click on the Volunteer icon in the Nav bar | User is brought to the save the world page |
