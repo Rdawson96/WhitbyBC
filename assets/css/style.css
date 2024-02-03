@@ -74,7 +74,7 @@ body a {
 
 /* underline for active page */
 .active {
-    border-bottom: 2px solid #f18e1c;
+    border-bottom: 2px solid #FFCBB4;
 }
 
 /* Navbar style */
@@ -223,9 +223,9 @@ form div {
 
 .signup-button {
     width: 10rem;
-    padding: 1.25rem 0;
-    background-color: #f18e1c;
-    color: #FFFFFF;
+    padding: 1rem;
+    background-color: #FFCBB4;
+    color: #1E4462;
     border: none;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 106%;
@@ -236,6 +236,7 @@ form div {
 
 .signup-button:hover {
     background-color: #1E4462;
+    color: #FFFFFF;
 }
 
 #map iframe {
@@ -253,7 +254,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #ffffff;
+    color: #FFFFFF;
     padding: 5px 0;
 }
 
@@ -271,11 +272,11 @@ footer div {
 #social-networks i {
     font-size: 200%;
     padding: 0.5rem 1rem;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 #social-networks i:hover {
-    color: #f18e1c;
+    color: #FFCBB4;
 }
 
 #social-networks li {
