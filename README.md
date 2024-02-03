@@ -16,6 +16,7 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
     - [Project Goals](#project-goals)
     - [User Stories](#user-stories)
     - [Colours Used](#colours-used)
+    - [Fonts used](#fonts-used)
     - [Wireframes](#wireframes)
   - [Features](#features)
   - [Frameworks and Programs Used](#frameworks-and-programs-used)
@@ -52,10 +53,20 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
 
 ### User Stories
 
+- As a user, I want to easily navigate my way around the website.
+- As a user, I want to know the objective of the community group.
+- As a user, I want to find out details of the next events easily.
+- As a user, I want to be able to quickly get more information on the contact details and social media of the group.
+- As a user' I want to know precisely where the group is located and where they meet.
+
 ### Colours Used
 
 - The following color palette was used to convey the ocean with a range of blues and a coral color.
 ![Image of colors used in the project](assets/readme-images/wbc-color-scheme.png)
+
+### Fonts used
+
+- The font Barlow Condensed was used throughout the website with a fall back of sans-serif incase there is issues with the initial font. Google Fonts was used to import the font into the website.
 
 ### Wireframes
 
@@ -74,7 +85,7 @@ Balsamiq has been used to show the appearance of the site on different devices
 - Logo & Nav bar
   ![image of desktop top bar on all pages](assets/readme-images/desktop-nav-bar.png)
   ![image of mobile top bar on all pages](assets/readme-images/mobile-nav-bar.png)
-  - The header contains the groups logo and navigation bar across the top of each page in the website.
+  - The header contains the groups logo and navigation bar across the top of each page in the website. This allows for easy navigation of the site for the user.
   - The active page is underlined making easy for the user to see what page they are on.
   - The logo functions as a link to the index page.
   
@@ -85,7 +96,7 @@ Balsamiq has been used to show the appearance of the site on different devices
 - Footer
   ![image of desktop footer on all pages](assets/readme-images/desktop-footer.png)
   ![image of mobile footer on all pages](assets/readme-images/mobile-footer.png)
-  - The footer includes contact details of the community group as well as icons that link to all the groups social media pages.
+  - The footer includes contact details of the community group as well as icons that link to all the groups social media pages. This makes it easy for the user to find out more information about the group by clicking on the social media links
 
 - Landing page
 
@@ -95,11 +106,11 @@ Balsamiq has been used to show the appearance of the site on different devices
   
 - body section
   ![image of text content of index page](assets/readme-images/about-us-index.png)
-  - Informs the user the purpose of the group and what they have achieved with previous volunteer days
+  - Informs the user the purpose of the group and what they have achieved with previous volunteer days. This gives the user an idea of what they would be doing if they decided to sign up for an event.
   
 - Index page Volunteer Button
   ![image of text content of index page](assets/readme-images/volunteer-link.png)
-  - button that takes the user to the form on the volunteer page
+  - button that takes the user to the form on the volunteer page. This give the user and obvious path to the sign up form if they have made the decision to sign up
 
 - Save the world page
 
@@ -125,6 +136,10 @@ Balsamiq has been used to show the appearance of the site on different devices
   
   ![image of map of Whitby on volunteer page](assets/readme-images/map-iframe.png)
   - The Google maps Iframe shows the member exactly where the group meets. This allows the member to easily locate the group if they wanted to join in
+
+- The site is consistent in it color schemes and responsiveness
+
+[back to the top](#whitby-beach-clean)
 
 ## Frameworks and Programs Used
 
@@ -156,6 +171,8 @@ The languages used in this project are:
 - HTML
 - CSS
 
+[back to the top](#whitby-beach-clean)
+
 ## Testing
 
 ### Validator Testing
@@ -175,10 +192,11 @@ The languages used in this project are:
   - The W3C Markup Validator found an error in the use of a % as a measurement on the Iframe. I fixed this by applying an ID and using a percentage through the CSS file.
   - The W3C Markup Validator also found a stray end div tag that I deleted from the code.
   - ![Image of Volunteer page validation errors](assets/readme-images/volunteer-page-errors.png)
+- These errors have since been rectified
 
 - CSS
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) found no errors or warnings on my CSS.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) found no errors or warnings on the CSS file.
 
 ### Accessibility
 
@@ -186,7 +204,7 @@ Ensuring that our website is accessible to all users, regardless of their abilit
 
 #### 1. Lighthouse testing
 
-Light house in Chrome Dev tools was used to confirm the colors of the site are easy to read and easily accessible.
+Light house in Chrome Dev tools was used to confirm accessibility of the site and confirm that the colors of the site are easy to read.
 
 - Lighthouse reports
 - Index page
@@ -238,8 +256,7 @@ The website is responsive, providing a seamless experience across various device
 | Sign up to volunteer button change color on hover| | hover cursor over button | button changes color when cursor is hovered over it |
 
 - Save the World page
-
-There are no further features to be tested on this page
+  There are no further features to be tested on this page
 
 - Volunteer page
 
@@ -248,7 +265,9 @@ There are no further features to be tested on this page
 | Volunteer form input box Validation. The user is required to enter details into all three boxes | | type data into one box and press submit button | User is informed that they are required to input data into all data boxes |
 | Sign up input button | Click on the input sign up button | The user is brought to a page displaying data they have just input |
 | Sign up input button hovers | Hover mouse over the button | The button changes color when the cursor is hovered over it |
-| Iframe map is interactive | click and drag map around | The map is interactive and draggable |
+| Iframe interactive map | click and drag map around | The map is interactive and draggable |
+
+[back to the top](#whitby-beach-clean)
 
 #### Browser Compatibility
 
@@ -311,3 +330,6 @@ ChatGPT was used to generate paragraphs of content to input into the Save the Wo
 - I consulted [W3Schools](https://www.w3schools.com/) to gain inspiration and further guidance  on CSS in my code
 - I used the idea of [Font Awesome](https://fontawesome.com/) icons in my headings from the Love Running example project from [Code Institute](https://codeinstitute.net/)
 - I used Josswe26 readme as a reference for structure in my readme file as recommended  by my Tutor [here](https://github.com/josswe26/pura-vida-spa/tree/main)
+- I used the Love running example project as a guide in making my index page responsive on larger screens with the use of the flex and align-self CSS atrributes.
+
+[back to the top](#whitby-beach-clean)

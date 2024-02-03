@@ -133,15 +133,15 @@ main {
 }
 
 /* Info Section Styles */
-#group-info {
+#group-info-section {
     display: flex;
 }
 
-#text-body p {
+#group-information p {
     padding: 0 1rem;
 }
 
-#text-body div {
+#group-information div {
     margin: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -332,12 +332,12 @@ footer div {
         font-size: 200%;
     }
 
-    #text-main {
+    #text-container {
         display: flex;
         flex-direction: row;
     }
 
-    #text-main>div {
+    #text-container>div {
         flex: 1;
     }
 
@@ -346,11 +346,11 @@ footer div {
         height: 100%;
     }
 
-    #text-body {
+    #group-information {
         order: 0;
     }
 
-    #text-body>div {
+    #group-information>div {
         align-self: flex-start;
     }
 
@@ -382,13 +382,13 @@ footer div {
         font-size: 250%;
     }
 
-    #group-info {
+    #group-info-section {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    #text-main {
+    #text-container {
         flex: 1;
         padding: 0 1rem;
         order: -1;
