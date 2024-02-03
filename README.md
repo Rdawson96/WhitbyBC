@@ -19,6 +19,7 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
     - [Fonts used](#fonts-used)
     - [Wireframes](#wireframes)
   - [Features](#features)
+    - [General Features](#general-features)
   - [Frameworks and Programs Used](#frameworks-and-programs-used)
     - [Languages used](#languages-used)
   - [Testing](#testing)
@@ -37,6 +38,7 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
   - [Finished Product](#finished-product)
   - [Deployment](#deployment)
     - [Github](#github)
+  - [Bugs](#bugs)
   - [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
@@ -80,9 +82,10 @@ Balsamiq has been used to show the appearance of the site on different devices
 
 ## Features
 
-- General Features
+### General Features
 
 - Logo & Nav bar
+  
   ![image of desktop top bar on all pages](assets/readme-images/desktop-nav-bar.png)
   ![image of mobile top bar on all pages](assets/readme-images/mobile-nav-bar.png)
   - The header contains the groups logo and navigation bar across the top of each page in the website. This allows for easy navigation of the site for the user.
@@ -90,52 +93,56 @@ Balsamiq has been used to show the appearance of the site on different devices
   - The logo functions as a link to the index page.
   
 - Heading
+  
   ![image of headings and hero image](assets/readme-images/index-hero-image.png)
   - Each page has a bold heading which with a colored background making sure that the user knows the page they are on.
   
 - Footer
+  
   ![image of desktop footer on all pages](assets/readme-images/desktop-footer.png)
   ![image of mobile footer on all pages](assets/readme-images/mobile-footer.png)
   - The footer includes contact details of the community group as well as icons that link to all the groups social media pages. This makes it easy for the user to find out more information about the group by clicking on the social media links
 
 - Landing page
 
-- larger hero image
-  ![image of headings and hero image](assets/readme-images/index-hero-image.png)
-  - Draws the attention of the user and sticks to the ocean theme.
+  - large hero image
   
-- body section
-  ![image of text content of index page](assets/readme-images/about-us-index.png)
-  - Informs the user the purpose of the group and what they have achieved with previous volunteer days. This gives the user an idea of what they would be doing if they decided to sign up for an event.
+    ![image of headings and hero image](assets/readme-images/index-hero-image.png)
+    - Draws the attention of the user and sticks to the ocean theme.
   
-- Index page Volunteer Button
-  ![image of text content of index page](assets/readme-images/volunteer-link.png)
-  - button that takes the user to the form on the volunteer page. This give the user and obvious path to the sign up form if they have made the decision to sign up
+  - body section
+
+    ![image of text content of index page](assets/readme-images/about-us-index.png)
+    - Informs the user the purpose of the group and what they have achieved with previous volunteer days. This gives the user an idea of what they would be doing if    they decided to sign up for an event.
+  
+  - Index page Volunteer Button
+  
+    ![image of text content of index page](assets/readme-images/volunteer-link.png)
+    - button that takes the user to the form on the volunteer page. This give the user and obvious path to the sign up form if they have made the decision to sign up
 
 - Save the world page
 
-  ![image of text content of index page](assets/readme-images/save-the-planet-reasons.png)
-
-- The Main text body section is used to inform user other ways they can help at home.
-- The picture of the earth aims to make the member feel like they are making a change if they follow the 4 steps on the page
+    ![image of text content of index page](assets/readme-images/save-the-planet-reasons.png)
+  - The Main text body section is used to inform user other ways they can help at home.
+  - The picture of the earth aims to make the member feel like they are making a change if they follow the 4 steps on the page
 
 - Volunteer page
 
-- Image gallery
+  - Image gallery
   
-  ![image of gallery section on volunteer page](assets/readme-images/volunteer-gallery.png)
-  - the picture gallery is used to give the user a familiar idea as to what the group community events look like.
+    ![image of gallery section on volunteer page](assets/readme-images/volunteer-gallery.png)
+    - the picture gallery is used to give the user a familiar idea as to what the group community events look like.
   
-- Volunteer sign up form
+  - Volunteer sign up form
   
-  ![image of sign up form on volunteer page](assets/readme-images/volunteer-sign-up-form.png)
-  - The sign up form allows the customer to sign up to the mailing list to find out more information about upcoming events.
-  - The form also give the user the opportunity  to sign up to the groups newsletter allowing the group to gain more members and generate interest.
+    ![image of sign up form on volunteer page](assets/readme-images/volunteer-sign-up-form.png)
+    - The sign up form allows the customer to sign up to the mailing list to find out more information about upcoming events.
+    - The form also give the user the opportunity  to sign up to the groups newsletter allowing the group to gain more members and generate interest.
   
-- Google Maps iframe
+  - Google Maps iframe
   
-  ![image of map of Whitby on volunteer page](assets/readme-images/map-iframe.png)
-  - The Google maps Iframe shows the member exactly where the group meets. This allows the member to easily locate the group if they wanted to join in
+    ![image of map of Whitby on volunteer page](assets/readme-images/map-iframe.png)
+    - The Google maps Iframe shows the member exactly where the group meets. This allows the member to easily locate the group if they wanted to join in
 
 - The site is consistent in it color schemes and responsiveness
 
@@ -245,7 +252,7 @@ The website is responsive, providing a seamless experience across various device
 | Nav bar - home | Click on the Home icon in the Nav bar | User is brought to the home page |
 | Nav bar - Save the world | Click on the Save the World icon in the Nav bar | User is brought to the Save the World page |
 | Nav bar - Volunteer | Click on the Volunteer icon in the Nav bar | User is brought to the save the world page |
-| Footer social links | click on the individual social media icon links | the external links take the user to the correct site in a new tab |
+| Footer social links | Click on the individual social media icon links | the external links take the user to the correct site in a new tab |
 | Footer social links hover | Hover mouse over the individual social media icon links  | Each individual icon changes color when the cursor is hovered over it |
 
 - Index page
@@ -283,9 +290,9 @@ The website is responsive, providing a seamless experience across various device
 
 | Page | Desktop | Mobile |
 | --- | --- | --- |
-| Index | ![Final Desktop Index page](assets/readme-images/index-desktop-final.png) | ![Final Mobile Index page](assets/readme-images/index-mobile-final.png) |
-| Save the World | ![Final Desktop Save the World page](assets/readme-images/save-the-world-desktop-final.png) | ![Final Mobile Save the World page](assets/readme-images/save-the-world-mobile-final.png) |
-| Volunteer | ![Final Desktop Volunteer page](assets/readme-images/volunteer-desktop-final.png) | ![Final Mobile Volunteer page](assets/readme-images/volunteer-mobile-final.png) |
+| Index Page | ![Final Desktop Index page](assets/readme-images/index-desktop-final.png) | ![Final Mobile Index page](assets/readme-images/index-mobile-final.png) |
+| Save the World Page | ![Final Desktop Save the World page](assets/readme-images/save-the-world-desktop-final.png) | ![Final Mobile Save the World page](assets/readme-images/save-the-world-mobile-final.png) |
+| Volunteer Page | ![Final Desktop Volunteer page](assets/readme-images/volunteer-desktop-final.png) | ![Final Mobile Volunteer page](assets/readme-images/volunteer-mobile-final.png) |
 
 ## Deployment
 
@@ -302,6 +309,10 @@ The website is responsive, providing a seamless experience across various device
     4. Under Source, click the dropdown called None and select Master Branch.
 
     5. The page will refresh automatically and generate a link to your website.
+
+## Bugs
+
+- There are no reported bugs with the site.
 
 ## Credits
 
