@@ -40,7 +40,7 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
   - [Deployment](#deployment)
   - [Credits](#credits)
     - [Content](#content)
-    - [images I took](#images-i-took)
+    - [Media](#media)
     - [Learning Resources](#learning-resources)
 
 ## User Experience
@@ -193,9 +193,23 @@ Our website is responsive, providing a seamless experience across various device
 
 ### Content
 
-### images I took
+### Media
+
+- [Pexels](https://www.pexels.com/)
+
+  - Main hero image: "Body of Water under Blue and White Skies" by Matt Hardy.
+  - Gallery image: "Volunteer People Picking Up Trash and Plastics" by Thirdman
+  - Gallery image: "A Man and a Woman Looking at a Plastic Bottle" by Ron Lach
+  - Gallery image: "People in Face Masks Cleaning Coast" by Kirill Ozerov
+  - 2nd Index image: "A Family Campaigning to Save The Earth" by Ron Lach
+  - Earth image: "Planet Earth" by Pixabay
+
+- [Pixabay](https://pixabay.com/)
+
+  - Gallery Image: "trash-pollution-beach-ocean-4897352" by Sergei Tokmakov
 
 ### Learning Resources
 
 <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
 <https://techsini.com/multi-mockup/index.php>
+<https://www.w3schools.com/>
