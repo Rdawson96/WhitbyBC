@@ -1,6 +1,6 @@
 # Whitby Beach Clean
 
-![Whitby Beach Clean mockup Image](assets/readme-images/wbc-color-scheme.png)
+![Whitby Beach Clean mockup Image](assets/readme-images/website-mockup.png)
 
 Whitby beach clean is a fictional community group located in the town of Whitby in Yorkshire, England. The group organises local events for all to help keep the beaches of the town clean and aims to educate members and the public on how to reduce plastic and ocean pollution.
 
@@ -17,6 +17,10 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
     - [Colours Used](#colours-used)
     - [Wireframes](#wireframes)
   - [Features](#features)
+    - [General Features](#general-features)
+    - [Landing page](#landing-page)
+    - [Save the world page](#save-the-world-page)
+    - [Volunteer page](#volunteer-page)
   - [Frameworks and Programs Used](#frameworks-and-programs-used)
     - [Languages used](#languages-used)
   - [Testing](#testing)
@@ -48,6 +52,8 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
 
 ### Colours Used
 
+![Image of colors used in the project](assets/readme-images/wbc-color-scheme.png)
+
 ### Wireframes
 
 Balsamiq has been used to show the appearance of the site on different devices
@@ -60,28 +66,33 @@ Balsamiq has been used to show the appearance of the site on different devices
 
 ## Features
 
-- General Features
-  - Logo & Nav bar
-    - [image of desktop top bar on all pages](assets/readme-images/desktop-nav-bar.png)
-    - [image of mobile top bar on all pages](assets/readme-images/mobile-nav-bar.png)
-  - Heading
-  - Footer
-    - [image of desktop footer on all pages](assets/readme-images/desktop-footer.png)
-    - [image of mobile footer on all pages](assets/readme-images/mobile-footer.png)
-- Landing page
-- Save the world page
-- Volunteer page
-landing page
+### General Features
 
-about the community group
+- Logo & Nav bar
+  - ![image of desktop top bar on all pages](assets/readme-images/desktop-nav-bar.png)
+  - ![image of mobile top bar on all pages](assets/readme-images/mobile-nav-bar.png)
+- Heading
+- Footer
+  - ![image of desktop footer on all pages](assets/readme-images/desktop-footer.png)
+  - ![image of mobile footer on all pages](assets/readme-images/mobile-footer.png)
 
-button to sign up
+### Landing page
 
-other ways to help the planet
+body section informing the user the purpose of the group and what they have achieved
+  ![image of text content of index page](assets/readme-images/about-us-index.png)
 
-volunteer page with sign up form
+button that takes the user to the form on the volunteer page
+  ![image of text content of index page](assets/readme-images/volunteer-link.png)
 
-gallery
+### Save the world page
+
+ ![image of text content of index page](assets/readme-images/save-the-planet-reasons.png)
+
+### Volunteer page
+
+gallery ![image of gallery section on volunteer page](assets/readme-images/volunteer-gallery.png)
+sign up form ![image of sign up form on volunteer page](assets/readme-images/volunteer-sign-up-form.png)
+map iframe ![image of map of Whitby on volunteer page](assets/readme-images/map-iframe.png)
 
 explain the value that each feature adds to the website
 
