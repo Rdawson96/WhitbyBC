@@ -1,6 +1,6 @@
 # Whitby Beach Clean
 
-![Whitby Beach Clean mockup Image](assets/readme-images/website-mockup.png)
+![Whitby Beach Clean mock-up Image](assets/readme-images/website-mockup.png)
 
 Whitby beach clean is a fictional community group located in the town of Whitby in Yorkshire, England. The group organises local events for all to help keep the beaches of the town clean and aims to educate members and the public on how to reduce plastic and ocean pollution.
 
@@ -18,17 +18,11 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
     - [Colours Used](#colours-used)
     - [Wireframes](#wireframes)
   - [Features](#features)
-    - [General Features](#general-features)
-    - [Landing page](#landing-page)
-    - [Save the world page](#save-the-world-page)
-    - [Volunteer page](#volunteer-page)
   - [Frameworks and Programs Used](#frameworks-and-programs-used)
     - [Languages used](#languages-used)
   - [Testing](#testing)
     - [Validator Testing](#validator-testing)
       - [Validation Errors](#validation-errors)
-        - [HTML](#html)
-        - [CSS](#css)
     - [Accessibility](#accessibility)
       - [1. Lighthouse testing](#1-lighthouse-testing)
       - [2. Semantic HTML](#2-semantic-html)
@@ -38,9 +32,7 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
       - [6. Responsive Design](#6-responsive-design)
     - [Manual testing](#manual-testing)
       - [Common Elements](#common-elements)
-      - [Index page](#index-page)
-      - [Save the World page](#save-the-world-page-1)
-      - [Volunteer page](#volunteer-page-1)
+      - [Browser Compatibility](#browser-compatibility)
   - [Finished Product](#finished-product)
   - [Deployment](#deployment)
     - [Github](#github)
@@ -62,6 +54,7 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
 
 ### Colours Used
 
+- The following color palette was used to convey the ocean with a range of blues and a coral color.
 ![Image of colors used in the project](assets/readme-images/wbc-color-scheme.png)
 
 ### Wireframes
@@ -72,11 +65,11 @@ Balsamiq has been used to show the appearance of the site on different devices
 |--- | --- | --- |
 |Index |![Desktop index wireframe image](assets/wireframes/index-wireframe.png) | ![Mobile index wireframe image](assets/wireframes/mobile-index-wireframe.png) |
 |Save the World | ![Desktop save the world wireframe image](assets/wireframes/world-wireframe.png) | ![Mobile Save the World wireframe image](assets/wireframes/mobile-world-wireframe.png) |
-|Volunteer | ![Desktop Volunteerireframe image](assets/wireframes/volunteer-wireframe.png) | ![Mobile Volunteer wireframe image](assets/wireframes/mobile-volunteer-wireframe.png) |
+|Volunteer | ![Desktop Volunteer wireframe image](assets/wireframes/volunteer-wireframe.png) | ![Mobile Volunteer wireframe image](assets/wireframes/mobile-volunteer-wireframe.png) |
 
 ## Features
 
-### General Features
+- General Features
 
 - Logo & Nav bar
   ![image of desktop top bar on all pages](assets/readme-images/desktop-nav-bar.png)
@@ -92,9 +85,9 @@ Balsamiq has been used to show the appearance of the site on different devices
 - Footer
   ![image of desktop footer on all pages](assets/readme-images/desktop-footer.png)
   ![image of mobile footer on all pages](assets/readme-images/mobile-footer.png)
-  - The footer includes contact deatils of the community group as well as icons that link to all the gorups social media pages.
+  - The footer includes contact details of the community group as well as icons that link to all the groups social media pages.
 
-### Landing page
+- Landing page
 
 - larger hero image
   ![image of headings and hero image](assets/readme-images/index-hero-image.png)
@@ -108,14 +101,14 @@ Balsamiq has been used to show the appearance of the site on different devices
   ![image of text content of index page](assets/readme-images/volunteer-link.png)
   - button that takes the user to the form on the volunteer page
 
-### Save the world page
+- Save the world page
 
   ![image of text content of index page](assets/readme-images/save-the-planet-reasons.png)
 
 - The Main text body section is used to inform user other ways they can help at home.
-- The picture of the earth aims to make the member feel like they are making a change if they follow the 4 setps on the page
+- The picture of the earth aims to make the member feel like they are making a change if they follow the 4 steps on the page
 
-### Volunteer page
+- Volunteer page
 
 - Image gallery
   
@@ -126,7 +119,7 @@ Balsamiq has been used to show the appearance of the site on different devices
   
   ![image of sign up form on volunteer page](assets/readme-images/volunteer-sign-up-form.png)
   - The sign up form allows the customer to sign up to the mailing list to find out more information about upcoming events.
-  - The form also give the user the oppourtinitu to sign up to the groups newsletter allowing the group to gain more members and generate interest.
+  - The form also give the user the opportunity  to sign up to the groups newsletter allowing the group to gain more members and generate interest.
   
 - Google Maps iframe
   
@@ -139,7 +132,7 @@ Balsamiq has been used to show the appearance of the site on different devices
   - Codeanywhere was used for writing code, committing, and then pushing to GitHub. [GitHub](https://githubcom/)
 
 - [Google Fonts](https://fonts.google.com/)
-    Google Fonts was used to import the fonts Barlow Condensed into the style.css file. These fonts were used throughout the site.
+  - Google Fonts was used to import the fonts Barlow Condensed into the style.css file. These fonts were used throughout the site.
 
 - [Font Awesome](https://fontawesome.com/)
   - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
@@ -171,7 +164,7 @@ The languages used in this project are:
 
 #### Validation Errors
 
-##### HTML
+- HTML
 
 - Index Page
   - The W3C Markup Validator found errors where I had given a href value an alt attribute on the index page. I was able to delete this.
@@ -183,7 +176,7 @@ The languages used in this project are:
   - The W3C Markup Validator also found a stray end div tag that I deleted from the code.
   - ![Image of Volunteer page validation errors](assets/readme-images/volunteer-page-errors.png)
 
-##### CSS
+- CSS
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) found no errors or warnings on my CSS.
 
@@ -206,7 +199,7 @@ Light house in Chrome Dev tools was used to confirm the colors of the site are e
 
 #### 2. Semantic HTML
 
-Semantic HTML tags were used to provide a clear and meaningful structure to the webiste content. This helps screen readers and other assistive technologies interpret and convey information accurately.
+Semantic HTML tags were used to provide a clear and meaningful structure to the website content. This helps screen readers and other assistive technologies interpret and convey information accurately.
 
 #### 3. ARIA (Accessible Rich Internet Applications)
 
@@ -235,29 +228,37 @@ The website is responsive, providing a seamless experience across various device
 | Nav bar - Save the world | Click on the Save the World icon in the Nav bar | User is brought to the Save the World page |
 | Nav bar - Volunteer | Click on the Volunteer icon in the Nav bar | User is brought to the save the world page |
 | Footer social links | click on the individual social media icon links | the external links take the user to the correct site in a new tab |
-| Footer socail links hover | Hover mouse over the individual social media icon links  | Each individual icon changes color when the cursor is hovered over it |
+| Footer social links hover | Hover mouse over the individual social media icon links  | Each individual icon changes color when the cursor is hovered over it |
 
-#### Index page
+- Index page
 
 | Feature | Test case | Outcome |
 | --- | --- | --- |
 | Sign up to volunteer button | | Click on the button | User is brought to the Volunteer page |
-| Sign up to volunteer button change color on hover| | hover cursor over button | Ubutton changes color when cursor is hovered over it |
+| Sign up to volunteer button change color on hover| | hover cursor over button | button changes color when cursor is hovered over it |
 
-#### Save the World page
+- Save the World page
 
 There are no further features to be tested on this page
 
-#### Volunteer page
+- Volunteer page
 
 | Feature | Test case | Outcome |
 | --- | --- | --- |
-| form | | Click on the Logo | User is brought back to the home page |
-| Form validation | --- | --- |
-| sign up input button | --- | --- |
-| button hovers | --- | --- |
-| button takes you to right page | --- | --- |
-| Iframe map is interactive | --- | --- |
+| Volunteer form input box Validation. The user is required to enter details into all three boxes | | type data into one box and press submit button | User is informed that they are required to input data into all data boxes |
+| Sign up input button | Click on the input sign up button | The user is brought to a page displaying data they have just input |
+| Sign up input button hovers | Hover mouse over the button | The button changes color when the cursor is hovered over it |
+| Iframe map is interactive | click and drag map around | The map is interactive and draggable |
+
+#### Browser Compatibility
+
+- The website has been tested on the following browsers:
+  - Google Chrome
+    - No appearance, responsiveness nor functionality issues.
+  - Microsoft edge
+    - No appearance, responsiveness nor functionality issues.
+  - Safari
+    - No appearance, responsiveness nor functionality issues.
 
 ## Finished Product
 
@@ -287,7 +288,7 @@ There are no further features to be tested on this page
 
 ### Content
 
-I used Chatgpt to generate paragraphs to input into the Save the World page.
+ChatGPT was used to generate paragraphs of content to input into the Save the World page.
 
 ### Media
 
@@ -307,6 +308,6 @@ I used Chatgpt to generate paragraphs to input into the Save the World page.
 ### Code
 
 - I used [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) article to further understand flexbox and its attributes to implement into my code
-- I consulted [W3Schools](https://www.w3schools.com/) to gain inspiration and further guidence on CSS in my code
+- I consulted [W3Schools](https://www.w3schools.com/) to gain inspiration and further guidance  on CSS in my code
 - I used the idea of [Font Awesome](https://fontawesome.com/) icons in my headings from the Love Running example project from [Code Institute](https://codeinstitute.net/)
-- I used Josswe26 readme as a reference for structure in my readme file as reccomended by my Tutor [here](https://github.com/josswe26/pura-vida-spa/tree/main)
+- I used Josswe26 readme as a reference for structure in my readme file as recommended  by my Tutor [here](https://github.com/josswe26/pura-vida-spa/tree/main)
