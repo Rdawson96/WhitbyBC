@@ -1,6 +1,6 @@
 # Whitby Beach Clean
 
-![Whitby Beach Clean mockup Image](assets/readme-images/Website%20viewer%202.png)
+![Whitby Beach Clean mockup Image](assets/readme-images/wbc-color-scheme.png)
 
 Whitby beach clean is a fictional community group located in the town of Whitby in Yorkshire, England. The group organises local events for all to help keep the beaches of the town clean and aims to educate members and the public on how to reduce plastic and ocean pollution.
 
@@ -60,6 +60,17 @@ Balsamiq has been used to show the appearance of the site on different devices
 
 ## Features
 
+- General Features
+  - Logo & Nav bar
+    - [image of desktop top bar on all pages](assets/readme-images/desktop-nav-bar.png)
+    - [image of mobile top bar on all pages](assets/readme-images/mobile-nav-bar.png)
+  - Heading
+  - Footer
+    - [image of desktop footer on all pages](assets/readme-images/desktop-footer.png)
+    - [image of mobile footer on all pages](assets/readme-images/mobile-footer.png)
+- Landing page
+- Save the world page
+- Volunteer page
 landing page
 
 about the community group
@@ -174,5 +185,6 @@ Our website is responsive, providing a seamless experience across various device
 ### images I took
 
 ### Learning Resources
+
 <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
 <https://techsini.com/multi-mockup/index.php>
