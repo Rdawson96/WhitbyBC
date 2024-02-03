@@ -207,8 +207,6 @@ The languages used in this project are:
 
 ### Accessibility
 
-Ensuring that our website is accessible to all users, regardless of their abilities or disabilities, is a priority for us. We strive to follow best practices to make our content usable by a wide audience. Here are some of the steps we have taken to enhance accessibility:
-
 #### 1. Lighthouse testing
 
 Light house in Chrome Dev tools was used to confirm accessibility of the site and confirm that the colors of the site are easy to read.
@@ -261,8 +259,8 @@ This was tested via [Chrome DevTools](https://developer.chrome.com/docs/devtools
 
 | Feature | Test case | Outcome |
 | --- | --- | --- |
-| Sign up to volunteer button | | Click on the button | User is brought to the Volunteer page |
-| Sign up to volunteer button change color on hover| | hover cursor over button | button changes color when cursor is hovered over it |
+| Sign up to volunteer button | Click on the button | User is brought to the Volunteer page |
+| Sign up to volunteer button change color on hover| Hover cursor over button | button changes color when cursor is hovered over it |
 
 - Save the World page
   There are no further features to be tested on this page
@@ -271,10 +269,10 @@ This was tested via [Chrome DevTools](https://developer.chrome.com/docs/devtools
 
 | Feature | Test case | Outcome |
 | --- | --- | --- |
-| Volunteer form input box Validation. The user is required to enter details into all three boxes | | type data into one box and press submit button | User is informed that they are required to input data into all data boxes |
-| Sign up input button | Click on the input sign up button | The user is brought to a page displaying data they have just input |
+| Volunteer form input box Validation. The user is required to enter details into all three boxes | Type data into one box and press submit button | User is informed that they are required to input data into all data boxes |
+| Sign up input button | Click on the input sign up button | The user is brought to a page displaying data they have just input in a readble format |
 | Sign up input button hovers | Hover mouse over the button | The button changes color when the cursor is hovered over it |
-| Iframe interactive map | click and drag map around | The map is interactive and draggable |
+| Iframe interactive map | Click and drag map around | The map is interactive and draggable |
 
 [back to the top](#whitby-beach-clean)
 
