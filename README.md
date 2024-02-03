@@ -157,7 +157,7 @@ Balsamiq has been used to show the appearance of the site on different devices
   - Google Fonts was used to import the fonts Barlow Condensed into the style.css file. These fonts were used throughout the site.
 
 - [Font Awesome](https://fontawesome.com/)
-  - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
+  - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for User experience purposes.
 
 - [Balsamiq](https://balsamiq.com/)
   - Balsamiq was used to create the wireframes during the design phase of the project.
@@ -299,16 +299,11 @@ This was tested via [Chrome DevTools](https://developer.chrome.com/docs/devtools
 ### Github
 
 - The following steps are to deploy the website to Github Pages from the GitHub repository:
-
-    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
-
-    2. At the top of the Repository, Go to the Settings button on the menu.
-
-    3. Scroll down the Settings page until you locate the Pages section.
-
-    4. Under Source, click the dropdown called None and select Master Branch.
-
-    5. The page will refresh automatically and generate a link to your website.
+  -  Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+  -  At the top of the Repository, Go to the Settings button on the menu.
+  -  Scroll down the Settings page until you locate the Pages section.
+  -  Under Source, click the dropdown called None and select Master Branch.
+  -  The page will refresh automatically and generate a link to your website.
 
 ## Bugs
 
