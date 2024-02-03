@@ -36,9 +36,6 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
       - [5. Alt Text for Images](#5-alt-text-for-images)
       - [6. Responsive Design](#6-responsive-design)
     - [Manual testing](#manual-testing)
-    - [Bugs](#bugs)
-      - [Solved bugs](#solved-bugs)
-      - [Unfixed bugs](#unfixed-bugs)
   - [Finished Product](#finished-product)
   - [Deployment](#deployment)
     - [Github](#github)
@@ -46,6 +43,7 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
     - [Content](#content)
     - [Media](#media)
     - [Learning Resources](#learning-resources)
+    - [Code](#code)
 
 ## User Experience
 
@@ -142,23 +140,19 @@ The languages used in this project are:
 ### Validator Testing
 
 - The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate all pages of the project in order to ensure there were no syntax errors.
-
 #### Validation Errors
 
 ##### HTML
-
 - Index Page
   - The W3C Markup Validator found errors where I had given a href value an alt attribute on the index page. I was able to delete this.
   - The W3C Markup Validator also found multiple stray end div tags that I deleted from the code.
   - The last error the validator found was that I had used a button as a descendent of an a element. I amended this by removing the button and applying css styling to the a attribute
-  - ![Image of Index page validation errors](assets/readme-images/index-page-errors.png)
 - Volunteer Page
-  - The W3C Markup Validator found an error in the use of a % as a measurement on the Iframe. I fixed this by applying an ID and using a percentage through the CSS file.
+  - The W3C Markup Validator found an error in the use of a % as a measurement on the Iframe. I fixed this by applying an ID and using a percentage through the CSS file. 
   - The W3C Markup Validator also found a stray end div tag that I deleted from the code.
-  - ![Image of Volunteer page validation errors](assets/readme-images/volunteer-page-errors.png)
+  - ![Image of Volunteer page validation errors](assets/readme-images/)
 
 ##### CSS
-
 - W3C CSS Validator found no errors or warnings on my CSS.
 
 ### Accessibility
@@ -198,11 +192,6 @@ The website is responsive, providing a seamless experience across various device
 | --- | --- | --- |
 | --- | --- | --- |
 
-### Bugs
-
-#### Solved bugs
-
-#### Unfixed bugs
 
 ## Finished Product
 
@@ -211,6 +200,7 @@ The website is responsive, providing a seamless experience across various device
 | Index | ![Final Desktop Index page](assets/readme-images/index-desktop-final.png) | ![Final Mobile Index page](assets/readme-images/index-mobile-final.png) |
 | Save the World | ![Final Desktop Save the World page](assets/readme-images/save-the-world-desktop-final.png) | ![Final Mobile Save the World page](assets/readme-images/save-the-world-mobile-final.png) |
 | Volunteer | ![Final Desktop Volunteer page](assets/readme-images/volunteer-desktop-final.png) | ![Final Mobile Volunteer page](assets/readme-images/volunteer-mobile-final.png) |
+
 
 ## Deployment
 
@@ -249,6 +239,7 @@ The website is responsive, providing a seamless experience across various device
 
 ### Learning Resources
 
+### Code
 <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
 <https://techsini.com/multi-mockup/index.php>
 <https://www.w3schools.com/>
