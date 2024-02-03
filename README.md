@@ -84,9 +84,11 @@ Balsamiq has been used to show the appearance of the site on different devices
   - The header contains the groups logo and navigation bar across the top of each page in the website.
   - The active page is underlined making easy for the user to see what page they are on.
   - The logo functions as a link to the index page.
+  
 - Heading
-  [image of headings and hero image](assets/readme-images/index-hero-image.png)
-  - Each page has a bold heading which with a colored background making sure that the user knows the page they are on
+  ![image of headings and hero image](assets/readme-images/index-hero-image.png)
+  - Each page has a bold heading which with a colored background making sure that the user knows the page they are on.
+  
 - Footer
   ![image of desktop footer on all pages](assets/readme-images/desktop-footer.png)
   ![image of mobile footer on all pages](assets/readme-images/mobile-footer.png)
@@ -95,13 +97,16 @@ Balsamiq has been used to show the appearance of the site on different devices
 ### Landing page
 
 - larger hero image
-  [image of headings and hero image](assets/readme-images/index-hero-image.png)
+  ![image of headings and hero image](assets/readme-images/index-hero-image.png)
   - Draws the attention of the user and sticks to the ocean theme.
+  
 - body section
-  - ![image of text content of index page](assets/readme-images/about-us-index.png)
+  ![image of text content of index page](assets/readme-images/about-us-index.png)
   - Informs the user the purpose of the group and what they have achieved with previous volunteer days
-- button that takes the user to the form on the volunteer page
-  - ![image of text content of index page](assets/readme-images/volunteer-link.png)
+  
+- Index page Volunteer Button
+  ![image of text content of index page](assets/readme-images/volunteer-link.png)
+  - button that takes the user to the form on the volunteer page
 
 ### Save the world page
 
@@ -113,23 +118,27 @@ Balsamiq has been used to show the appearance of the site on different devices
 ### Volunteer page
 
 - Image gallery
+  
   ![image of gallery section on volunteer page](assets/readme-images/volunteer-gallery.png)
   - the picture gallery is used to give the user a familiar idea as to what the group community events look like.
+  
 - Volunteer sign up form
+  
   ![image of sign up form on volunteer page](assets/readme-images/volunteer-sign-up-form.png)
   - The sign up form allows the customer to sign up to the mailing list to find out more information about upcoming events.
   - The form also give the user the oppourtinitu to sign up to the groups newsletter allowing the group to gain more members and generate interest.
+  
 - Google Maps iframe
+  
   ![image of map of Whitby on volunteer page](assets/readme-images/map-iframe.png)
   - The Google maps Iframe shows the member exactly where the group meets. This allows the member to easily locate the group if they wanted to join in
 
 ## Frameworks and Programs Used
 
 - [Codeanywhere](https://app.codeanywhere.com/)
-  - Codeanywhere was used for writing code, committing, and then pushing to GitHub. [GitHub](https://git*com/)
-  - GitH*was used to store the project aft*ushing.
+  - Codeanywhere was used for writing code, committing, and then pushing to GitHub. [GitHub](https://githubcom/)
 
-- [Google Fonts](https://fo*.google.com/)
+- [Google Fonts](https://fonts.google.com/)
     Google Fonts was used to import the fonts Barlow Condensed into the style.css file. These fonts were used throughout the site.
 
 - [Font Awesome](https://fontawesome.com/)
@@ -137,9 +146,6 @@ Balsamiq has been used to show the appearance of the site on different devices
 
 - [Balsamiq](https://balsamiq.com/)
   - Balsamiq was used to create the wireframes during the design phase of the project.
-
-- [Am I Responsive?](http://ami.responsivedesign.is/#)
-  - Am I Responsive was used in order to see responsive design throughout the process.
 
 - [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php)
   - Responsive Design Checker was used in the testing process to check responsiveness on various devices and to generate mockup image.
@@ -179,7 +185,7 @@ The languages used in this project are:
 
 ##### CSS
 
-- W3C CSS Validator found no errors or warnings on my CSS.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) found no errors or warnings on my CSS.
 
 ### Accessibility
 
