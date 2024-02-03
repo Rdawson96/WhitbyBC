@@ -80,7 +80,8 @@ Balsamiq has been used to show the appearance of the site on different devices
   - The active page is underlined making easy for the user to see what page they are on.
   - The logo functions as a link to the index page.
 - 
-- Headinng
+- Heading
+  [image of headings and hero image](assets/readme-images/index-hero-image.png)
   - Each page has a bold heading which with a colored background making sure that the user knows the page they are on
 - Footer
   ![image of desktop footer on all pages](assets/readme-images/desktop-footer.png)
@@ -89,8 +90,12 @@ Balsamiq has been used to show the appearance of the site on different devices
 
 ### Landing page
 
-- body section informing the user the purpose of the group and what they have achieved
+- larger hero image 
+  [image of headings and hero image](assets/readme-images/index-hero-image.png)
+  - Draws the attention of the user and sticks to the ocean theme.
+- body section
   - ![image of text content of index page](assets/readme-images/about-us-index.png)
+  - Informs the user the purpose of the group and what they have achieved with previous volunteer days
 - button that takes the user to the form on the volunteer page
   - ![image of text content of index page](assets/readme-images/volunteer-link.png)
 
