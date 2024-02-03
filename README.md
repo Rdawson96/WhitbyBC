@@ -42,7 +42,6 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
   - [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
-    - [Learning Resources](#learning-resources)
     - [Code](#code)
 
 ## User Experience
@@ -229,6 +228,8 @@ The website is responsive, providing a seamless experience across various device
 
 ### Content
 
+I used Chatgpt to generate paragraphs to input into the Save the World page.
+
 ### Media
 
 - [Pexels](https://www.pexels.com/)
@@ -244,9 +245,8 @@ The website is responsive, providing a seamless experience across various device
 
   - Gallery Image: "trash-pollution-beach-ocean-4897352" by Sergei Tokmakov
 
-### Learning Resources
-
 ### Code
-<https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
-<https://techsini.com/multi-mockup/index.php>
-<https://www.w3schools.com/>
+I used [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) article to further understand flexbox and its attributes to implement into my code
+I consulted [W3Schools](https://www.w3schools.com/) to gain inspiration and further guidence on CSS in my code
+I used the idea of [Font Awesome](https://fontawesome.com/) icons in my headings from the Love Running example project from [Code Institute](https://codeinstitute.net/)
+I used Josswe26 readme as a reference for structure in my readme file as reccomended by my Tutor [here](https://github.com/josswe26/pura-vida-spa/tree/main)
