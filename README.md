@@ -161,6 +161,13 @@ Ensuring that our website is accessible to all users, regardless of their abilit
 
 #### 1. Lighthouse testing
 
+- Index page
+  - [Index page lighthouse report](assets/readme-images/index-lighthouse-test.png)
+- Save the world page
+  - [Save the World page lighthouse report](assets/readme-images/save-the-world-lighthouse-test.png)
+- Volunteer page
+  - [Volunteer page lighthouse report](assets/readme-images/volunteer-lighthouse-test.png)
+
 #### 2. Semantic HTML
 
 Semantic HTML tags were used to provide a clear and meaningful structure to the webiste content. This helps screen readers and other assistive technologies interpret and convey information accurately.
