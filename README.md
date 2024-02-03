@@ -193,7 +193,7 @@ The languages used in this project are:
 - Index Page
   - The W3C Markup Validator found errors where I had given a href value an alt attribute on the index page. I was able to delete this.
   - The W3C Markup Validator also found multiple stray end div tags that I deleted from the code.
-  - The last error the validator found was that I had used a button as a descendent of an a element. I amended this by removing the button and applying css styling to the a attribute
+  - The last error the validator found was that I had used a button as a descendent of an a element. I amended this by removing the button and applying CSS styling to the a attribute
   - ![image of Index page validation errors](assets/readme-images/index-page-errors.png)
 - Volunteer Page
   - The W3C Markup Validator found an error in the use of a % as a measurement on the Iframe. I fixed this by applying an ID and using a percentage through the CSS file.
@@ -241,6 +241,8 @@ All images on the website include descriptive alternative text (alt text). This 
 #### 6. Responsive Design
 
 The website is responsive, providing a seamless experience across various devices and screen sizes. This benefits users with different abilities and ensures a consistent and accessible user experience.
+
+This was tested via [Chrome DevTools](https://developer.chrome.com/docs/devtools/) as the project progressed.
 
 ### Manual testing
 
