@@ -36,6 +36,10 @@ Please find a link to the deployed site [here](https://rdawson96.github.io/Whitb
       - [5. Alt Text for Images](#5-alt-text-for-images)
       - [6. Responsive Design](#6-responsive-design)
     - [Manual testing](#manual-testing)
+      - [Common Elements](#common-elements)
+      - [Index page](#index-page)
+      - [Save the World page](#save-the-world-page-1)
+      - [Volunteer page](#volunteer-page-1)
   - [Finished Product](#finished-product)
   - [Deployment](#deployment)
     - [Github](#github)
@@ -70,12 +74,18 @@ Balsamiq has been used to show the appearance of the site on different devices
 ### General Features
 
 - Logo & Nav bar
-  - ![image of desktop top bar on all pages](assets/readme-images/desktop-nav-bar.png)
-  - ![image of mobile top bar on all pages](assets/readme-images/mobile-nav-bar.png)
-- Heading
+  ![image of desktop top bar on all pages](assets/readme-images/desktop-nav-bar.png)
+  ![image of mobile top bar on all pages](assets/readme-images/mobile-nav-bar.png)
+  - The header contains the groups logo and navigation bar across the top of each page in the website.
+  - The active page is underlined making easy for the user to see what page they are on.
+  - The logo functions as a link to the index page.
+- 
+- Headinng
+  - Each page has a bold heading which with a colored background making sure that the user knows the page they are on
 - Footer
-  - ![image of desktop footer on all pages](assets/readme-images/desktop-footer.png)
-  - ![image of mobile footer on all pages](assets/readme-images/mobile-footer.png)
+  ![image of desktop footer on all pages](assets/readme-images/desktop-footer.png)
+  ![image of mobile footer on all pages](assets/readme-images/mobile-footer.png)
+  - The footer includes contact deatils of the community group as well as icons that link to all the gorups social media pages.
 
 ### Landing page
 
@@ -86,19 +96,22 @@ Balsamiq has been used to show the appearance of the site on different devices
 
 ### Save the world page
 
-- Main body section used to inform user other ways they can help at home.
-  - ![image of text content of index page](assets/readme-images/save-the-planet-reasons.png)
+  ![image of text content of index page](assets/readme-images/save-the-planet-reasons.png)
+  - The Main text body section is used to inform user other ways they can help at home.
+  - The picture of the earth aims to make the member feel like they are making a change if they follow the 4 setps on the page
 
 ### Volunteer page
 
-- gallery
-  - ![image of gallery section on volunteer page](assets/readme-images/volunteer-gallery.png)
-- sign up form
-  - ![image of sign up form on volunteer page](assets/readme-images/volunteer-sign-up-form.png)
-- map iframe
-  - ![image of map of Whitby on volunteer page](assets/readme-images/map-iframe.png)
-
-explain the value that each feature adds to the website
+- Image gallery
+  ![image of gallery section on volunteer page](assets/readme-images/volunteer-gallery.png)
+  - the picture gallery is used to give the user a familiar idea as to what the group comminty events look like.
+- Volunteer sign up form
+  ![image of sign up form on volunteer page](assets/readme-images/volunteer-sign-up-form.png)
+  - The sign up form allows the customer to sign up to the mailing list to find out more information about upcoming events.
+  - The form also give the user the oppourtinitu to sign up to the groups newsletter allowing the group to gain more members and generate interest.
+- Google Maps iframe
+  ![image of map of Whitby on volunteer page](assets/readme-images/map-iframe.png)
+  - The Google maps Iframe shows the member exactly where the group meets. This allows the member to easily locate the group if they wanted to join in 
 
 ## Frameworks and Programs Used
 
@@ -139,19 +152,23 @@ The languages used in this project are:
 ### Validator Testing
 
 - The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate all pages of the project in order to ensure there were no syntax errors.
+
 #### Validation Errors
 
 ##### HTML
+
 - Index Page
   - The W3C Markup Validator found errors where I had given a href value an alt attribute on the index page. I was able to delete this.
   - The W3C Markup Validator also found multiple stray end div tags that I deleted from the code.
   - The last error the validator found was that I had used a button as a descendent of an a element. I amended this by removing the button and applying css styling to the a attribute
+  - [image of Index page validation errors](assets/readme-images/index-page-errors.png)
 - Volunteer Page
-  - The W3C Markup Validator found an error in the use of a % as a measurement on the Iframe. I fixed this by applying an ID and using a percentage through the CSS file. 
+  - The W3C Markup Validator found an error in the use of a % as a measurement on the Iframe. I fixed this by applying an ID and using a percentage through the CSS file.
   - The W3C Markup Validator also found a stray end div tag that I deleted from the code.
   - ![Image of Volunteer page validation errors](assets/readme-images/)
 
 ##### CSS
+
 - W3C CSS Validator found no errors or warnings on my CSS.
 
 ### Accessibility
@@ -160,12 +177,16 @@ Ensuring that our website is accessible to all users, regardless of their abilit
 
 #### 1. Lighthouse testing
 
+Light house in Chrome Dev tools was used to confirm the colors of the site are easy to read and easily accessible.
+
+- Lighthouse reports
 - Index page
   - [Index page lighthouse report](assets/readme-images/index-lighthouse-test.png)
 - Save the world page
   - [Save the World page lighthouse report](assets/readme-images/save-the-world-lighthouse-test.png)
 - Volunteer page
   - [Volunteer page lighthouse report](assets/readme-images/volunteer-lighthouse-test.png)
+  - The performance could be improved by further reducing the image size.
 
 #### 2. Semantic HTML
 
@@ -189,15 +210,38 @@ The website is responsive, providing a seamless experience across various device
 
 ### Manual testing
 
+#### Common Elements
+
 | Feature | Test case | Outcome |
 | --- | --- | --- |
 | Logo | | Click on the Logo | User is brought back to the home page |
-| Nav bar - home | --- | --- |
-| Nav bar - Save the world | --- | --- |
-| Nav bar - Volunteer | --- | --- |
-| --- | --- | --- |
-| --- | --- | --- |
+| Nav bar - home | Click on the Home icon in the Nav bar | User is brought to the home page |
+| Nav bar - Save the world | Click on the Save the World icon in the Nav bar | User is brought to the Save the World page |
+| Nav bar - Volunteer | Click on the Volunteer icon in the Nav bar | User is brought to the save the world page |
+| Footer social links | click on the individual social media icon links | the external links take the user to the correct site in a new tab |
+| Footer socail links hover | Hover mouse over the individual social media icon links  | Each individual icon changes color when the cursor is hovered over it |
 
+#### Index page
+
+| Feature | Test case | Outcome |
+| --- | --- | --- |
+| Sign up to volunteer button | | Click on the button | User is brought to the Volunteer page |
+| Sign up to volunteer button change color on hover| | hover cursor over button | Ubutton changes color when cursor is hovered over it |
+
+#### Save the World page
+
+There are no further features to be tested on this page
+
+#### Volunteer page
+
+| Feature | Test case | Outcome |
+| --- | --- | --- |
+| form | | Click on the Logo | User is brought back to the home page |
+| Form validation | --- | --- |
+| sign up input button | --- | --- |
+| button hovers | --- | --- |
+| button takes you to right page | --- | --- |
+| Iframe map is interactive | --- | --- |
 
 ## Finished Product
 
@@ -207,7 +251,6 @@ The website is responsive, providing a seamless experience across various device
 | Save the World | ![Final Desktop Save the World page](assets/readme-images/save-the-world-desktop-final.png) | ![Final Mobile Save the World page](assets/readme-images/save-the-world-mobile-final.png) |
 | Volunteer | ![Final Desktop Volunteer page](assets/readme-images/volunteer-desktop-final.png) | ![Final Mobile Volunteer page](assets/readme-images/volunteer-mobile-final.png) |
 
-
 ## Deployment
 
 ### Github
@@ -216,7 +259,7 @@ The website is responsive, providing a seamless experience across various device
 
     1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
 
-    2. At the top of the Repository, locate the Settings button on the menu.
+    2. At the top of the Repository, Go to the Settings button on the menu.
 
     3. Scroll down the Settings page until you locate the Pages section.
 
@@ -246,7 +289,8 @@ I used Chatgpt to generate paragraphs to input into the Save the World page.
   - Gallery Image: "trash-pollution-beach-ocean-4897352" by Sergei Tokmakov
 
 ### Code
-I used [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) article to further understand flexbox and its attributes to implement into my code
-I consulted [W3Schools](https://www.w3schools.com/) to gain inspiration and further guidence on CSS in my code
-I used the idea of [Font Awesome](https://fontawesome.com/) icons in my headings from the Love Running example project from [Code Institute](https://codeinstitute.net/)
-I used Josswe26 readme as a reference for structure in my readme file as reccomended by my Tutor [here](https://github.com/josswe26/pura-vida-spa/tree/main)
+
+- I used [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) article to further understand flexbox and its attributes to implement into my code
+- I consulted [W3Schools](https://www.w3schools.com/) to gain inspiration and further guidence on CSS in my code
+- I used the idea of [Font Awesome](https://fontawesome.com/) icons in my headings from the Love Running example project from [Code Institute](https://codeinstitute.net/)
+- I used Josswe26 readme as a reference for structure in my readme file as reccomended by my Tutor [here](https://github.com/josswe26/pura-vida-spa/tree/main)
